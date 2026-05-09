@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GovCheck - Government Career Discovery Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Poppins:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-logo">
+            <span class="logo-text">GovCheck</span>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#how-it-works" class="nav-link">How It Works</a></li>
+            <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#trending" class="nav-link">Trending</a></li>
+            <li class="nav-item"><a href="#results-section" class="nav-link">Results</a></li>
+        </ul>
+        <button class="btn nav-cta" onclick="document.getElementById('eligibility-form').scrollIntoView({behavior:'smooth'})">Get Started</button>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+        <h1 class="hero-title">Your Next Government<br><span>Opportunity</span> Starts Here</h1>
+        <p class="hero-subtitle">Discover government exams tailored to your age, education, category, and state — in seconds.</p>
+        <div class="form-card glass-effect">
+            <form id="eligibility-form" class="eligibility-form" action="/get-exams" method="POST">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="age" class="form-label">Age</label>
+                        <input type="number" id="age" name="age" placeholder="e.g. 24" class="form-input" min="10" max="60" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="status" class="form-label">Education Status</label>
+                        <select id="status" name="status" class="form-input" required>
+                            <option value="">Select education</option>
+                            <option value="10th">10th Pass</option>
+                            <option value="12th">12th Pass</option>
+                            <option value="graduate">Graduate</option>
+                            <option value="postgraduate">Postgraduate</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="category" class="form-label">Category</label>
+                        <select id="category" name="category" class="form-input" required>
+                            <option value="">Select category</option>
+                            <option value="general">General</option>
+                            <option value="obc">OBC</option>
+                            <option value="sc">SC</option>
+                            <option value="st">ST</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="state" class="form-label">State</label>
+                        <select id="state" name="state" class="form-input" required>
+                            <option value="">Select state</option>
+                            <option value="all">All India (National)</option>
+                            <optgroup label="States">
+                                <option value="andhra pradesh">Andhra Pradesh</option>
+                                <option value="arunachal pradesh">Arunachal Pradesh</option>
+                                <option value="assam">Assam</option>
+                                <option value="bihar">Bihar</option>
+                                <option value="chhattisgarh">Chhattisgarh</option>
+                                <option value="goa">Goa</option>
+                                <option value="gujarat">Gujarat</option>
+                                <option value="haryana">Haryana</option>
+                                <option value="himachal pradesh">Himachal Pradesh</option>
+                                <option value="jharkhand">Jharkhand</option>
+                                <option value="karnataka">Karnataka</option>
+                                <option value="kerala">Kerala</option>
+                                <option value="madhya pradesh">Madhya Pradesh</option>
+                                <option value="maharashtra">Maharashtra</option>
+                                <option value="manipur">Manipur</option>
+                                <option value="meghalaya">Meghalaya</option>
+                                <option value="mizoram">Mizoram</option>
+                                <option value="nagaland">Nagaland</option>
+                                <option value="odisha">Odisha</option>
+                                <option value="punjab">Punjab</option>
+                                <option value="rajasthan">Rajasthan</option>
+                                <option value="sikkim">Sikkim</option>
+                                <option value="tamil nadu">Tamil Nadu</option>
+                                <option value="telangana">Telangana</option>
+                                <option value="tripura">Tripura</option>
+                                <option value="uttar pradesh">Uttar Pradesh</option>
+                                <option value="uttarakhand">Uttarakhand</option>
+                                <option value="west bengal">West Bengal</option>
+                            </optgroup>
+                            <optgroup label="Union Territories">
+                                <option value="delhi">Delhi</option>
+                                <option value="jammu and kashmir">Jammu &amp; Kashmir</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" id="find-btn" class="btn btn-primary btn-large">Discover Opportunities</button>
+                <div id="error-msg" class="form-error"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" data-value="215">215+</div>
+                <div class="stat-label">Government Exams</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-value="28">28</div>
+                <div class="stat-label">States Covered</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">Central + State</div>
+                <div class="stat-label">Job Opportunities</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">Smart</div>
+                <div class="stat-label">Eligibility Matching</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="how-it-works" class="how-it-works">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Simple three-step process to discover your opportunities</p>
+        </div>
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Enter Your Profile</h3>
+                <p>Tell us your age, education, category, and state. Just the basics.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>We Analyse Eligibility</h3>
+                <p>Our system processes your criteria against 215+ exams instantly.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Discover Opportunities</h3>
+                <p>Get personalised recommendations with eligibility details and official links.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="recommendation">
+    <div class="container">
+        <div class="recommendation-content">
+            <div class="recommendation-text">
+                <h2>Smart Recommendations For You</h2>
+                <p>GovCheck analyses your profile against every eligibility criterion to find your best matches.</p>
+                <ul class="recommendation-list">
+                    <li>Exams matched to your exact age and category</li>
+                    <li>Automatic age relaxation for OBC / SC / ST</li>
+                    <li>Education-level based eligibility filter</li>
+                    <li>State-specific and All-India exam coverage</li>
+                    <li>Direct links to official notifications</li>
+                </ul>
+            </div>
+            <div class="recommendation-card">
+                <div class="recommendation-header">
+                    <h3>Your Match Profile</h3>
+                    <span class="match-score">Smart Filter</span>
+                </div>
+                <div class="recommendation-body">
+                    <div class="recommendation-item">
+                        <span class="item-label">Central Govt</span>
+                        <span class="item-value">UPSC, SSC, Railway, IBPS</span>
+                    </div>
+                    <div class="recommendation-item">
+                        <span class="item-label">State Govt</span>
+                        <span class="item-value">PSC, Secretariat, Police</span>
+                    </div>
+                    <div class="recommendation-item">
+                        <span class="item-label">Coverage</span>
+                        <span class="item-value">28 States + UTs</span>
+                    </div>
+                    <div class="recommendation-item">
+                        <span class="item-label">Total Exams</span>
+                        <span class="item-value">215+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features" class="features">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Why Choose GovCheck</h2>
+            <p class="section-subtitle">Everything you need to succeed in government exams</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🗺️</div>
+                <h3>State-Specific Exams</h3>
+                <p>Access exams specific to your state with local job opportunities.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Category Relaxation</h3>
+                <p>Automatic eligibility checks for age relaxations by category.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Smart Filtering</h3>
+                <p>Filter results by exam type, group, and government level.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔗</div>
+                <h3>Official Links</h3>
+                <p>Direct access to official exam notifications and portals.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔍</div>
+                <h3>Fast Search</h3>
+                <p>Get results instantly with our optimised matching algorithm.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📋</div>
+                <h3>Personalised Guidance</h3>
+                <p>Recommendations tailored to your profile and qualifications.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="trending" class="trending">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Trending Exams</h2>
+            <p class="section-subtitle">Most searched and popular government exams</p>
+        </div>
+        <div class="trending-grid">
+            <div class="trending-card">
+                <span class="trending-badge">Popular</span>
+                <h3>UPSC Civil Services</h3>
+                <p class="trending-role">IAS / IPS / IFS Officer</p>
+                <div class="trending-meta">
+                    <div class="meta-item">Age: 21–32 years</div>
+                    <div class="meta-item">₹56,100/month+</div>
+                    <div class="meta-item">Central Govt</div>
+                </div>
+            </div>
+            <div class="trending-card">
+                <span class="trending-badge">Hot</span>
+                <h3>SSC CGL</h3>
+                <p class="trending-role">Group B &amp; C Posts</p>
+                <div class="trending-meta">
+                    <div class="meta-item">Age: 18–32 years</div>
+                    <div class="meta-item">₹25,500/month+</div>
+                    <div class="meta-item">Central Govt</div>
+                </div>
+            </div>
+            <div class="trending-card">
+                <span class="trending-badge">Popular</span>
+                <h3>Railway Recruitment</h3>
+                <p class="trending-role">RRB NTPC / Group D</p>
+                <div class="trending-meta">
+                    <div class="meta-item">Age: 18–33 years</div>
+                    <div class="meta-item">₹19,900/month+</div>
+                    <div class="meta-item">Central Govt</div>
+                </div>
+            </div>
+            <div class="trending-card">
+                <span class="trending-badge">Hot</span>
+                <h3>IBPS Banking</h3>
+                <p class="trending-role">PO / Clerk / SO</p>
+                <div class="trending-meta">
+                    <div class="meta-item">Age: 20–30 years</div>
+                    <div class="meta-item">₹23,000/month+</div>
+                    <div class="meta-item">Central Govt</div>
+                </div>
+            </div>
+            <div class="trending-card">
+                <span class="trending-badge">Popular</span>
+                <h3>Defence Services</h3>
+                <p class="trending-role">Army / Navy / Air Force</p>
+                <div class="trending-meta">
+                    <div class="meta-item">Age: 16.5–25 years</div>
+                    <div class="meta-item">₹56,100/month+</div>
+                    <div class="meta-item">Central Govt</div>
+                </div>
+            </div>
+            <div class="trending-card">
+                <span class="trending-badge">Trending</span>
+                <h3>State PSC</h3>
+                <p class="trending-role">Group A &amp; B Officers</p>
+                <div class="trending-meta">
+                    <div class="meta-item">Varies by state</div>
+                    <div class="meta-item">₹18,000/month+</div>
+                    <div class="meta-item">State Govt</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="results-section" class="results-section">
+    <div class="container">
+        <div class="results-header">
+            <h2 class="results-title">Your Opportunities</h2>
+            <p class="result-count" id="result-count">0 exams found</p>
+        </div>
+        <div class="filter-tabs">
+            <button class="filter-btn active" id="filter-all" data-filter="all">All</button>
+            <button class="filter-btn" id="filter-central" data-filter="central">Central Govt</button>
+            <button class="filter-btn" id="filter-state" data-filter="state">State Govt</button>
+        </div>
+        <div class="results-grid">
+            <div id="central-wrapper" class="exam-column">
+                <h3 class="column-heading">🏛 Central Government</h3>
+                <div id="central-list"></div>
+            </div>
+            <div id="state-wrapper" class="exam-column">
+                <h3 class="column-heading">🗺 State Government</h3>
+                <div id="state-list"></div>
+            </div>
+        </div>
+        <div id="no-results" class="no-results">
+            <p>No exams match your eligibility criteria. Try adjusting your profile.</p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4 class="footer-title">GovCheck</h4>
+                <p class="footer-description">Your trusted platform for discovering government career opportunities.</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#trending">Trending Exams</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Connect</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>GovCheck is an informational platform. Please verify all details with official government sources before applying.</p>
+            <p>© 2026 GovCheck. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

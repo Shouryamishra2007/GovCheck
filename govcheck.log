@@ -1,0 +1,240 @@
+2026-05-08 00:14:34,251 - __main__ - WARNING - Exams data file not found at c:\Users\HP\OneDrive\Desktop\GOVcheck\data\exams.json
+2026-05-08 00:14:34,252 - __main__ - WARNING - No exams data loaded. Application may not function properly.
+2026-05-08 00:14:34,252 - __main__ - INFO - Starting GovCheck Flask Application
+2026-05-08 00:14:34,409 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.33:5000
+2026-05-08 00:14:34,409 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-08 00:14:34,414 - werkzeug - INFO -  * Restarting with stat
+2026-05-08 00:14:35,345 - __main__ - WARNING - Exams data file not found at c:\Users\HP\OneDrive\Desktop\GOVcheck\data\exams.json
+2026-05-08 00:14:35,345 - __main__ - WARNING - No exams data loaded. Application may not function properly.
+2026-05-08 00:14:35,345 - __main__ - INFO - Starting GovCheck Flask Application
+2026-05-08 00:14:35,403 - werkzeug - WARNING -  * Debugger is active!
+2026-05-08 00:14:35,411 - werkzeug - INFO -  * Debugger PIN: 140-744-901
+2026-05-08 00:15:26,711 - __main__ - INFO - Rendering index page
+2026-05-08 00:15:26,730 - werkzeug - INFO - 192.168.29.33 - - [08/May/2026 00:15:26] "GET / HTTP/1.1" 200 -
+2026-05-08 00:15:26,899 - werkzeug - INFO - 192.168.29.33 - - [08/May/2026 00:15:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-05-08 00:15:26,920 - werkzeug - INFO - 192.168.29.33 - - [08/May/2026 00:15:26] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-05-08 00:15:30,303 - __main__ - WARNING - 404 error: http://192.168.29.33:5000/favicon.ico
+2026-05-08 00:15:30,304 - werkzeug - INFO - 192.168.29.33 - - [08/May/2026 00:15:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-08 08:28:46,731 - __main__ - WARNING - Exams data file not found at c:\Users\HP\OneDrive\Desktop\GOVcheck\data\exams.json
+2026-05-08 08:28:46,731 - __main__ - WARNING - No exams data loaded. Application may not function properly.
+2026-05-08 08:28:46,732 - __main__ - INFO - Starting GovCheck Flask Application
+2026-05-08 08:28:46,827 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.121.162.191:5000
+2026-05-08 08:28:46,827 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-08 08:28:46,829 - werkzeug - INFO -  * Restarting with stat
+2026-05-08 08:28:47,178 - __main__ - WARNING - Exams data file not found at c:\Users\HP\OneDrive\Desktop\GOVcheck\data\exams.json
+2026-05-08 08:28:47,179 - __main__ - WARNING - No exams data loaded. Application may not function properly.
+2026-05-08 08:28:47,179 - __main__ - INFO - Starting GovCheck Flask Application
+2026-05-08 08:28:47,205 - werkzeug - WARNING -  * Debugger is active!
+2026-05-08 08:28:47,209 - werkzeug - INFO -  * Debugger PIN: 140-744-901
+2026-05-08 08:30:01,881 - werkzeug - INFO -  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\GOVcheck\\app.py', reloading
+2026-05-08 08:30:01,946 - werkzeug - INFO -  * Restarting with stat
+2026-05-08 08:30:02,289 - __main__ - WARNING - Exams data file not found at c:\Users\HP\OneDrive\Desktop\GOVcheck\data\exams.json
+2026-05-08 08:30:02,290 - __main__ - WARNING - No exams data loaded. Application may not function properly.
+2026-05-08 08:30:02,290 - __main__ - INFO - Starting GovCheck Flask Application
+2026-05-08 08:30:02,344 - werkzeug - WARNING -  * Debugger is active!
+2026-05-08 08:30:02,349 - werkzeug - INFO -  * Debugger PIN: 140-744-901
+2026-05-08 08:30:04,404 - werkzeug - INFO -  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\GOVcheck\\app.py', reloading
+2026-05-08 08:30:04,497 - werkzeug - INFO -  * Restarting with stat
+2026-05-08 08:30:04,884 - __main__ - WARNING - Exams data file not found at c:\Users\HP\OneDrive\Desktop\GOVcheck\data\exams.json
+2026-05-08 08:30:04,885 - __main__ - WARNING - No exams data loaded. Application may not function properly.
+2026-05-08 08:30:04,885 - __main__ - INFO - Starting GovCheck Flask Application
+2026-05-08 08:30:04,913 - werkzeug - WARNING -  * Debugger is active!
+2026-05-08 08:30:04,916 - werkzeug - INFO -  * Debugger PIN: 140-744-901
+2026-05-08 08:30:13,440 - __main__ - WARNING - Exams data file not found at c:\Users\HP\OneDrive\Desktop\GOVcheck\data\exams.json
+2026-05-08 08:30:13,441 - __main__ - WARNING - No exams data loaded. Application may not function properly.
+2026-05-08 08:30:13,441 - __main__ - INFO - Starting GovCheck Flask Application
+2026-05-08 08:30:13,479 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-08 08:30:13,479 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-08 08:30:13,481 - werkzeug - INFO -  * Restarting with stat
+2026-05-08 08:30:13,791 - __main__ - WARNING - Exams data file not found at c:\Users\HP\OneDrive\Desktop\GOVcheck\data\exams.json
+2026-05-08 08:30:13,791 - __main__ - WARNING - No exams data loaded. Application may not function properly.
+2026-05-08 08:30:13,792 - __main__ - INFO - Starting GovCheck Flask Application
+2026-05-08 08:30:13,818 - werkzeug - WARNING -  * Debugger is active!
+2026-05-08 08:30:13,822 - werkzeug - INFO -  * Debugger PIN: 140-744-901
+2026-05-08 08:30:21,323 - __main__ - INFO - Rendering index page
+2026-05-08 08:30:21,354 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:21] "GET / HTTP/1.1" 200 -
+2026-05-08 08:30:21,436 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-08 08:30:21,447 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-05-08 08:30:21,841 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ac54af0e_a6ea_44e8_b23d_098e0d66ccea__0
+2026-05-08 08:30:21,842 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:21] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ac54af0e_a6ea_44e8_b23d_098e0d66ccea__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:21,846 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__20800220_4922_4fff_bd9d_029494b7d2c8__1
+2026-05-08 08:30:21,847 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:21] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__20800220_4922_4fff_bd9d_029494b7d2c8__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:21,860 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e2e4f600_64cf_45c7_8df3_77ab690af689__2
+2026-05-08 08:30:21,861 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:21] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e2e4f600_64cf_45c7_8df3_77ab690af689__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:22,322 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ba5fba0f_482c_401d_9702_448f6d5d858a__3
+2026-05-08 08:30:22,323 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:22] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ba5fba0f_482c_401d_9702_448f6d5d858a__3 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:22,339 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__2a3ff914_f100_42a7_9749_0dfc35c8227e__4
+2026-05-08 08:30:22,340 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:22] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__2a3ff914_f100_42a7_9749_0dfc35c8227e__4 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:22,351 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__264a1ec4_a3fa_407f_80bf_40e2ac4280b1__5
+2026-05-08 08:30:22,352 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:22] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__264a1ec4_a3fa_407f_80bf_40e2ac4280b1__5 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,149 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__72931cf8_d959_49da_825d_499535538365__0
+2026-05-08 08:30:23,149 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__72931cf8_d959_49da_825d_499535538365__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,154 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__0e7b168f_1a6e_4247_be63_7223553b0cef__1
+2026-05-08 08:30:23,155 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__0e7b168f_1a6e_4247_be63_7223553b0cef__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,162 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__35102d8d_722d_498d_a1b7_978754f160a2__2
+2026-05-08 08:30:23,163 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__35102d8d_722d_498d_a1b7_978754f160a2__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,270 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__63fc7e21_1512_4932_92cb_89d8c21a4c8c__0
+2026-05-08 08:30:23,271 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__63fc7e21_1512_4932_92cb_89d8c21a4c8c__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,278 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__f9e5ece9_7e66_4797_9284_6820df1c94d9__1
+2026-05-08 08:30:23,279 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__f9e5ece9_7e66_4797_9284_6820df1c94d9__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,284 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__2d12f015_53c7_44b1_84f5_dbb238698759__2
+2026-05-08 08:30:23,284 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__2d12f015_53c7_44b1_84f5_dbb238698759__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,412 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e6eee79f_0e37_492a_abc1_e09710e79f54__0
+2026-05-08 08:30:23,412 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e6eee79f_0e37_492a_abc1_e09710e79f54__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,419 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__449bc1e5_ec2c_4ecf_aa5a_a9e7619083c9__1
+2026-05-08 08:30:23,420 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__449bc1e5_ec2c_4ecf_aa5a_a9e7619083c9__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,423 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e724ad30_6afb_4dab_985d_66c81da78c74__2
+2026-05-08 08:30:23,423 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e724ad30_6afb_4dab_985d_66c81da78c74__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,532 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__86d0462e_8c6f_4469_aa39_165184fcd66f__0
+2026-05-08 08:30:23,533 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__86d0462e_8c6f_4469_aa39_165184fcd66f__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,539 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__58441066_2a7c_4b46_9c28_8716a062b3c4__1
+2026-05-08 08:30:23,540 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__58441066_2a7c_4b46_9c28_8716a062b3c4__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,545 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ef53b887_d171_42e6_b738_5a84a03ade5e__2
+2026-05-08 08:30:23,545 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ef53b887_d171_42e6_b738_5a84a03ade5e__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,660 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__5eb5b69f_1757_4065_acfc_cf6bed2a784d__0
+2026-05-08 08:30:23,661 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__5eb5b69f_1757_4065_acfc_cf6bed2a784d__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,667 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__68866988_7f9b_4d03_a02f_63cb6ea3eb98__1
+2026-05-08 08:30:23,668 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__68866988_7f9b_4d03_a02f_63cb6ea3eb98__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,670 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__5ad5691d_c24f_4c5b_b8c9_c36df2190bce__2
+2026-05-08 08:30:23,671 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__5ad5691d_c24f_4c5b_b8c9_c36df2190bce__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,774 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__f8e1c766_d817_4628_83ab_fd601aa4fb07__0
+2026-05-08 08:30:23,775 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__f8e1c766_d817_4628_83ab_fd601aa4fb07__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,782 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ae8bfc27_1ef8_4286_88b9_1f8735a522bc__1
+2026-05-08 08:30:23,782 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ae8bfc27_1ef8_4286_88b9_1f8735a522bc__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:23,788 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__9c489013_f91e_4d05_9fbf_d3275cbb90c1__2
+2026-05-08 08:30:23,789 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:23] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__9c489013_f91e_4d05_9fbf_d3275cbb90c1__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,041 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__c10e1fb2_88d2_4d33_8e98_b29b74d8df3d__0
+2026-05-08 08:30:24,041 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__c10e1fb2_88d2_4d33_8e98_b29b74d8df3d__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,046 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__9600a170_2e0c_431b_a148_9351a08eb83a__1
+2026-05-08 08:30:24,047 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__9600a170_2e0c_431b_a148_9351a08eb83a__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,057 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__69bb885b_6a59_41c5_a739_cf60aa583e86__2
+2026-05-08 08:30:24,058 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__69bb885b_6a59_41c5_a739_cf60aa583e86__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,168 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__f8cd7a47_0afc_43d7_85ea_ea1d41140787__0
+2026-05-08 08:30:24,168 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__f8cd7a47_0afc_43d7_85ea_ea1d41140787__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,176 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__212cf0d0_9f1b_4aa3_bf37_99cce82e4fe9__1
+2026-05-08 08:30:24,177 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__212cf0d0_9f1b_4aa3_bf37_99cce82e4fe9__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,179 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__37ca8f88_73e2_4740_9b42_0c2e99c8852a__2
+2026-05-08 08:30:24,180 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__37ca8f88_73e2_4740_9b42_0c2e99c8852a__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,321 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__7ec548ac_228c_4e83_a580_ef0610f0282b__0
+2026-05-08 08:30:24,321 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__7ec548ac_228c_4e83_a580_ef0610f0282b__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,327 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__83c71b9f_af48_4278_8a93_9c66281f441d__1
+2026-05-08 08:30:24,328 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__83c71b9f_af48_4278_8a93_9c66281f441d__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,344 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__f1a216a4_3ec3_4991_aa06_c1269b304ddb__2
+2026-05-08 08:30:24,345 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__f1a216a4_3ec3_4991_aa06_c1269b304ddb__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,478 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__1e749ad9_b40b_4649_9f6e_bac56754c539__0
+2026-05-08 08:30:24,479 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__1e749ad9_b40b_4649_9f6e_bac56754c539__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,488 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__33e632f0_f2f3_43ea_81dd_141f31b0fde0__1
+2026-05-08 08:30:24,489 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__33e632f0_f2f3_43ea_81dd_141f31b0fde0__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,494 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__aa1d206a_3227_4dc8_b0e0_03d79f968d0c__2
+2026-05-08 08:30:24,496 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__aa1d206a_3227_4dc8_b0e0_03d79f968d0c__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,613 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e30e9f1b_43cf_468e_86b3_5406cb34a8cd__0
+2026-05-08 08:30:24,614 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e30e9f1b_43cf_468e_86b3_5406cb34a8cd__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,622 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__4422c690_b037_4d33_a629_4237818e11e6__1
+2026-05-08 08:30:24,624 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__4422c690_b037_4d33_a629_4237818e11e6__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,627 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__3111d5fe_3b68_444a_8dae_7d6b243c994c__2
+2026-05-08 08:30:24,628 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__3111d5fe_3b68_444a_8dae_7d6b243c994c__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,738 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ea768838_9808_4b62_90aa_395451664c12__0
+2026-05-08 08:30:24,738 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ea768838_9808_4b62_90aa_395451664c12__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,745 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__8c41369e_b210_4b35_bae5_eb1f77a696e8__1
+2026-05-08 08:30:24,746 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__8c41369e_b210_4b35_bae5_eb1f77a696e8__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,750 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__9681725b_398a_4969_8bae_161930491c74__2
+2026-05-08 08:30:24,751 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__9681725b_398a_4969_8bae_161930491c74__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,861 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__3bbee303_cc75_4f11_b123_2917bed31404__0
+2026-05-08 08:30:24,862 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__3bbee303_cc75_4f11_b123_2917bed31404__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,869 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__55ff5085_fb65_4c41_9c43_bd08cdb1fa93__1
+2026-05-08 08:30:24,870 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__55ff5085_fb65_4c41_9c43_bd08cdb1fa93__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:24,873 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__4c747f78_1cdb_4a4a_83fd_97ef0d8f901e__2
+2026-05-08 08:30:24,875 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:24] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__4c747f78_1cdb_4a4a_83fd_97ef0d8f901e__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,004 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__d75a46c7_e9d0_4a8c_8dc0_a99ce5f8b293__0
+2026-05-08 08:30:25,005 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__d75a46c7_e9d0_4a8c_8dc0_a99ce5f8b293__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,012 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__78110cb5_32c8_4177_bf02_ca800670af2d__1
+2026-05-08 08:30:25,012 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__78110cb5_32c8_4177_bf02_ca800670af2d__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,024 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__99c528c6_baf0_469e_b19f_e6f2c9f063e5__2
+2026-05-08 08:30:25,024 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__99c528c6_baf0_469e_b19f_e6f2c9f063e5__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,128 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__a8e98ff1_b1bd_4bce_b491_f096608aa78b__0
+2026-05-08 08:30:25,128 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__a8e98ff1_b1bd_4bce_b491_f096608aa78b__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,136 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__64c9f284_5143_430a_b268_fc267945a00b__1
+2026-05-08 08:30:25,136 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__64c9f284_5143_430a_b268_fc267945a00b__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,139 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__97da7d1a_f19f_473f_b7e7_883f6e0e8339__2
+2026-05-08 08:30:25,140 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__97da7d1a_f19f_473f_b7e7_883f6e0e8339__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,266 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ee28ef42_3c30_4a8f_8c3f_3eab93819206__0
+2026-05-08 08:30:25,267 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ee28ef42_3c30_4a8f_8c3f_3eab93819206__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,273 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__8efc2aaf_921a_41c2_8185_d9d8693025d1__1
+2026-05-08 08:30:25,274 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__8efc2aaf_921a_41c2_8185_d9d8693025d1__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,277 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__3a57542d_e765_4321_822f_ee78e8a03caf__2
+2026-05-08 08:30:25,278 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__3a57542d_e765_4321_822f_ee78e8a03caf__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,389 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__6856adbb_e760_4c79_81b0_330691a092f0__0
+2026-05-08 08:30:25,389 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__6856adbb_e760_4c79_81b0_330691a092f0__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,397 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__19664888_2189_44c1_9461_7008d3362797__1
+2026-05-08 08:30:25,398 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__19664888_2189_44c1_9461_7008d3362797__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,401 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__bad90d49_1014_4285_9d20_7de828ecc3cc__2
+2026-05-08 08:30:25,402 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__bad90d49_1014_4285_9d20_7de828ecc3cc__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,518 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__c1b76d35_9793_42f4_845a_f1b83844e469__0
+2026-05-08 08:30:25,519 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__c1b76d35_9793_42f4_845a_f1b83844e469__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,526 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__697302fa_969d_4b28_acf0_abb04a0d37c8__1
+2026-05-08 08:30:25,526 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__697302fa_969d_4b28_acf0_abb04a0d37c8__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,531 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__576dc5a3_c279_4028_ada1_e76e0edd52f6__2
+2026-05-08 08:30:25,532 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__576dc5a3_c279_4028_ada1_e76e0edd52f6__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,654 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e6dd52c9_013b_4f1b_a4db_96c77d25dfd6__0
+2026-05-08 08:30:25,655 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__e6dd52c9_013b_4f1b_a4db_96c77d25dfd6__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,664 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__6ddc3f89_e154_4285_91ed_c60b4b615ee4__1
+2026-05-08 08:30:25,664 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__6ddc3f89_e154_4285_91ed_c60b4b615ee4__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,668 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__d4a84f7c_0e3d_4648_911b_9bbaa1f705f6__2
+2026-05-08 08:30:25,669 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__d4a84f7c_0e3d_4648_911b_9bbaa1f705f6__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,776 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__51ea34b5_5d60_4480_a20f_4d7f8a8358a9__0
+2026-05-08 08:30:25,776 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__51ea34b5_5d60_4480_a20f_4d7f8a8358a9__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,784 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__07754112_f565_4e46_a292_6456044b1beb__1
+2026-05-08 08:30:25,785 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__07754112_f565_4e46_a292_6456044b1beb__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,787 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ef45a2ac_94ec_4050_a859_08526f12408d__2
+2026-05-08 08:30:25,788 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ef45a2ac_94ec_4050_a859_08526f12408d__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,894 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__710a1769_4d30_454d_97ca_e98530f026fe__0
+2026-05-08 08:30:25,894 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__710a1769_4d30_454d_97ca_e98530f026fe__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,901 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__cb5e6603_ae91_452f_80b2_d28ab98a4658__1
+2026-05-08 08:30:25,901 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__cb5e6603_ae91_452f_80b2_d28ab98a4658__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:25,904 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__31278e64_11f6_42c0_a7b7_b421852e5f9c__2
+2026-05-08 08:30:25,905 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:25] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__31278e64_11f6_42c0_a7b7_b421852e5f9c__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,015 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__d0c081e7_1caf_4a1a_8d29_c0710c5af57e__0
+2026-05-08 08:30:26,016 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__d0c081e7_1caf_4a1a_8d29_c0710c5af57e__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,022 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__02d08d6b_52b7_4028_b4e1_5c11cb6cd0da__1
+2026-05-08 08:30:26,023 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__02d08d6b_52b7_4028_b4e1_5c11cb6cd0da__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,026 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__d0f41003_11ce_4e5e_aba6_1b9c399400ee__2
+2026-05-08 08:30:26,027 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__d0f41003_11ce_4e5e_aba6_1b9c399400ee__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,133 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__2b85e1a4_56ab_43d2_b7ed_2f96b71d8bb5__0
+2026-05-08 08:30:26,134 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__2b85e1a4_56ab_43d2_b7ed_2f96b71d8bb5__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,141 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__beaada97_a356_44a2_8cf6_2e2a48875958__1
+2026-05-08 08:30:26,141 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__beaada97_a356_44a2_8cf6_2e2a48875958__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,144 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__37089d31_dc39_43d7_ab9e_ea26064db81d__2
+2026-05-08 08:30:26,144 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__37089d31_dc39_43d7_ab9e_ea26064db81d__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,281 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__1f6af1c4_b0d2_4b93_afea_940cf8bc6368__0
+2026-05-08 08:30:26,286 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__1f6af1c4_b0d2_4b93_afea_940cf8bc6368__0 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,290 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__9fb328d7_ef2e_4059_912e_3438ba2c3d63__1
+2026-05-08 08:30:26,292 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__9fb328d7_ef2e_4059_912e_3438ba2c3d63__1 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:26,323 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__a726eee3_5353_4f09_9287_a558ac42cc4c__2
+2026-05-08 08:30:26,323 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__a726eee3_5353_4f09_9287_a558ac42cc4c__2 HTTP/1.1[0m" 404 -
+2026-05-08 08:30:27,185 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/favicon.ico
+2026-05-08 08:30:27,186 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-08 08:30:49,987 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/filter
+2026-05-08 08:30:49,988 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:49] "[33mPOST /filter HTTP/1.1[0m" 404 -
+2026-05-08 08:30:52,311 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/filter
+2026-05-08 08:30:52,311 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:52] "[33mPOST /filter HTTP/1.1[0m" 404 -
+2026-05-08 08:30:53,123 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/filter
+2026-05-08 08:30:53,124 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:53] "[33mPOST /filter HTTP/1.1[0m" 404 -
+2026-05-08 08:30:53,341 - __main__ - WARNING - 404 error: http://127.0.0.1:5000/filter
+2026-05-08 08:30:53,342 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 08:30:53] "[33mPOST /filter HTTP/1.1[0m" 404 -
+2026-05-08 09:21:28,549 - app - INFO - Successfully loaded 215 exams from /home/claude/govcheck_new/GOVcheck/exams.json
+2026-05-08 09:21:28,550 - app - INFO - Form data validated: {'age': 24, 'status': 'graduation', 'category': 'general', 'state': 'bihar'}
+2026-05-08 09:21:28,550 - app - INFO - Filtering 215 exams for user: {'age': 24, 'status': 'graduation', 'category': 'general', 'state': 'bihar'}
+2026-05-08 09:21:28,550 - app - INFO - Matched 27 exams
+2026-05-08 09:21:28,550 - app - INFO - Form data validated: {'age': 33, 'status': 'graduation', 'category': 'obc', 'state': 'all'}
+2026-05-08 09:21:28,551 - app - INFO - Filtering 215 exams for user: {'age': 33, 'status': 'graduation', 'category': 'obc', 'state': 'all'}
+2026-05-08 09:21:28,551 - app - INFO - Matched 164 exams
+2026-05-08 09:21:28,551 - app - INFO - Form data validated: {'age': 20, 'status': '10th', 'category': 'general', 'state': 'bihar'}
+2026-05-08 09:21:28,551 - app - INFO - Filtering 215 exams for user: {'age': 20, 'status': '10th', 'category': 'general', 'state': 'bihar'}
+2026-05-08 09:21:28,552 - app - INFO - Matched 3 exams
