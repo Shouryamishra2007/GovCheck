@@ -50,3 +50,13 @@
 2026-06-06 23:34:43,836 - __main__ - INFO - GovCheck started — 215 exams loaded
 2026-06-06 23:34:43,901 - werkzeug - WARNING -  * Debugger is active!
 2026-06-06 23:34:43,907 - werkzeug - INFO -  * Debugger PIN: 140-744-901
+2026-06-07 00:07:49,728 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-07 00:07:49,728 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-07 00:07:49,820 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-07 00:07:49,820 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 00:07:49,824 - werkzeug - INFO -  * Restarting with stat
+2026-06-07 00:07:50,510 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-07 00:07:50,510 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-07 00:07:50,574 - werkzeug - WARNING -  * Debugger is active!
+2026-06-07 00:07:50,580 - werkzeug - INFO -  * Debugger PIN: 140-744-901
