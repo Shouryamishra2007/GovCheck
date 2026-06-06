@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GovCheck — Find Your Government Opportunity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav class="navbar" id="navbar">
+  <a class="nav-brand" href="#">Gov<span>Check</span></a>
+  <div class="navbar-nav">
+    <a href="#features">Features</a>
+    <a href="#find">Find Exams</a>
+    <a href="#ai-tool">AI Tool</a>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero" id="home">
+  <div class="hero-bg-text">215+</div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">India's Smartest Exam Finder</p>
+    <h1 class="hero-title">Your Government<br /><em>Opportunity</em> Awaits</h1>
+    <p class="hero-sub">Filter 215+ central & state exams by age, education, category and state — with an AI match score for every result.</p>
+    <div class="hero-cta">
+      <a href="#find" class="btn-primary">Find My Exams</a>
+      <a href="#ai-tool" class="btn-ghost">AI Summarizer →</a>
+    </div>
+  </div>
+  <div class="hero-tags">
+    <span>UPSC</span><span>SSC</span><span>Railway</span><span>Banking</span><span>Defence</span><span>State PSC</span>
+  </div>
+</section>
+
+<!-- ── STATS ── -->
+<section class="stats-section" id="features">
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-number" data-value="215">0+</div>
+      <div class="stat-label">Government Exams</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" data-value="28">0+</div>
+      <div class="stat-label">States Covered</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" data-value="12">0+</div>
+      <div class="stat-label">Conducting Bodies</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" data-value="4">0</div>
+      <div class="stat-label">Category Profiles</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SEARCH ── -->
+<section class="search-section">
+  <div class="search-wrap">
+    <input id="global-search" type="text" placeholder="Search exams — try UPSC, Railway, Banking…" autocomplete="off" />
+    <button id="search-btn">Search</button>
+  </div>
+  <div id="search-results" class="search-results hidden"></div>
+</section>
+
+<!-- ── ELIGIBILITY FORM ── -->
+<section class="form-section" id="find">
+  <div class="form-container">
+    <div class="form-header">
+      <p class="section-eyebrow">Smart Filter</p>
+      <h2>Check Your Eligibility</h2>
+      <p class="form-sub">Fill in your details and we'll match you with every exam you can apply for — ranked by match score.</p>
+    </div>
+
+    <form id="eligibility-form" class="eligibility-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="age">Your Age</label>
+          <input type="number" id="age" name="age" placeholder="e.g. 23" min="10" max="60" required />
+        </div>
+        <div class="form-group">
+          <label for="status">Education</label>
+          <select id="status" name="status" required>
+            <option value="">Select level</option>
+            <option value="10th">10th Pass</option>
+            <option value="12th">12th Pass</option>
+            <option value="graduation">Graduate</option>
+            <option value="post-graduation">Post Graduate</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select id="category" name="category" required>
+            <option value="">Select category</option>
+            <option value="general">General</option>
+            <option value="obc">OBC</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="state">Home State</label>
+          <select id="state" name="state" required>
+            <option value="">Select state</option>
+            <option value="andhra_pradesh">Andhra Pradesh</option>
+            <option value="arunachal_pradesh">Arunachal Pradesh</option>
+            <option value="assam">Assam</option>
+            <option value="bihar">Bihar</option>
+            <option value="chhattisgarh">Chhattisgarh</option>
+            <option value="goa">Goa</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="haryana">Haryana</option>
+            <option value="himachal_pradesh">Himachal Pradesh</option>
+            <option value="jharkhand">Jharkhand</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="kerala">Kerala</option>
+            <option value="madhya_pradesh">Madhya Pradesh</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="manipur">Manipur</option>
+            <option value="meghalaya">Meghalaya</option>
+            <option value="mizoram">Mizoram</option>
+            <option value="nagaland">Nagaland</option>
+            <option value="odisha">Odisha</option>
+            <option value="punjab">Punjab</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="sikkim">Sikkim</option>
+            <option value="tamil_nadu">Tamil Nadu</option>
+            <option value="telangana">Telangana</option>
+            <option value="tripura">Tripura</option>
+            <option value="uttar_pradesh">Uttar Pradesh</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="west_bengal">West Bengal</option>
+            <option value="delhi">Delhi</option>
+            <option value="jammu_kashmir">Jammu & Kashmir</option>
+            <option value="ladakh">Ladakh</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="error-msg" class="error-msg"></div>
+      <button type="submit" class="btn-primary full-width" id="find-btn">
+        <span>Discover Opportunities</span>
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ── RESULTS ── -->
+<section class="results-section hidden" id="results-section">
+  <div class="results-header">
+    <div>
+      <p class="section-eyebrow">Results</p>
+      <h2 id="result-count">0 exams found</h2>
+    </div>
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-filter="all">All</button>
+      <button class="filter-tab" data-filter="central">Central</button>
+      <button class="filter-tab" data-filter="state">State</button>
+    </div>
+  </div>
+
+  <div id="no-results" class="no-results hidden">
+    <div class="no-results-icon">🔍</div>
+    <h3>No matching exams found</h3>
+    <p>Try adjusting your filters or check back as we update our database regularly.</p>
+  </div>
+
+  <div class="results-columns">
+    <div id="central-wrapper" class="results-column">
+      <h3 class="column-heading">🏛 Central Government</h3>
+      <div id="central-list"></div>
+    </div>
+    <div id="state-wrapper" class="results-column">
+      <h3 class="column-heading">🗺 State Government</h3>
+      <div id="state-list"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── AI SUMMARIZER ── -->
+<section class="ai-section" id="ai-tool">
+  <div class="ai-container">
+    <div class="ai-header">
+      <span class="ai-badge">✦ AI Powered</span>
+      <h2>Notification Summarizer</h2>
+      <p>Paste any government exam notification — get a clean breakdown of eligibility, dates, and process in seconds.</p>
+    </div>
+
+    <div class="ai-body">
+      <textarea id="ai-input" placeholder="Paste the full government notification text here…" rows="8"></textarea>
+      <button id="ai-btn" class="btn-primary">Summarize with AI</button>
+      <div id="ai-result" class="ai-result hidden"></div>
+      <p class="ai-note">⚙ Requires <code>GEMINI_API_KEY</code> in your environment. <a href="https://aistudio.google.com/app/apikey" target="_blank">Get one free →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">Gov<span>Check</span></div>
+    <p>Built for India's job-seekers. Data sourced from official government portals.</p>
+    <p class="footer-sub">IIT Patna Capstone Project · 2026</p>
+  </div>
+</footer>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

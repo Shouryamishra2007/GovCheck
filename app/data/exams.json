@@ -1,0 +1,4924 @@
+[
+  {
+    "id": "UPSC_CSE",
+    "name": "UNION PUBLIC SERVICE COMMISSION – CIVIL SERVICES EXAM",
+    "description": "India’s highest administrative exam to recruit IAS, IPS, IFS, IRS officers who run administration, police, foreign services, taxation, and policymaking.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "UPSC",
+    "group": [
+      "A",
+      "All-india-service"
+    ],
+    "official_link": "https://www.upsc.gov.in/"
+  },
+  {
+    "id": "UPSC_IES",
+    "name": "INDIAN ENGINEERING SERVICES (ESE)",
+    "description": "Recruits engineers for central engineering services like Railways, CPWD, Defence, Power, and Telecom departments.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "UPSC",
+    "group": [
+      "A",
+      "Engineering-services"
+    ],
+    "official_link": "https://www.upsc.gov.in/"
+  },
+  {
+    "id": "UPSC_CDS",
+    "name": "COMBINED DEFENCE SERVICES",
+    "description": "Selects commissioned officers for Indian Army, Navy and Air Force through IMA, INA, AFA and OTA.",
+    "min_age": 19,
+    "max_age": {
+      "General": 25,
+      "OBC": 25,
+      "SC": 25,
+      "ST": 25
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "UPSC",
+    "group": [
+      "A",
+      "Defence-officer"
+    ],
+    "official_link": "https://www.upsc.gov.in/"
+  },
+  {
+    "id": "RBI_GRADE_B",
+    "name": "RBI GRADE B OFFICER",
+    "description": "Officer recruitment in India’s central bank for monetary policy, regulation, banking supervision and finance.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "RBI",
+    "group": [
+      "A",
+      "Financial-services"
+    ],
+    "official_link": "https://opportunities.rbi.org.in/"
+  },
+  {
+    "id": "SEBI_GRADE_A",
+    "name": "SEBI GRADE A OFFICER",
+    "description": "Recruits officers for stock market regulation, investor protection and financial market supervision.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation",
+      "post-graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "SEBI",
+    "group": [
+      "A",
+      "Regulatory-services"
+    ],
+    "official_link": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes"
+  },
+  {
+    "id": "SSC_CGL",
+    "name": "STAFF SELECTION COMMISSION – CGL",
+    "description": "Recruits inspectors, auditors, income tax officers, section officers and assistants in central ministries.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "SSC",
+    "group": [
+      "B",
+      "Gazetted",
+      "Non-gazetted"
+    ],
+    "official_link": "https://ssc.nic.in/"
+  },
+  {
+    "id": "IBPS_PO",
+    "name": "IBPS PROBATIONARY OFFICER",
+    "description": "Selects probationary officers for public sector banks (managerial banking roles).",
+    "min_age": 20,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "IBPS",
+    "group": [
+      "B",
+      "Banking-services"
+    ],
+    "official_link": "https://www.ibps.in/"
+  },
+  {
+    "id": "SBI_PO",
+    "name": "STATE BANK OF INDIA – PO",
+    "description": "Recruits probationary officers for managerial and leadership roles in SBI branches.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "SBI",
+    "group": [
+      "B",
+      "Banking-services"
+    ],
+    "official_link": "https://www.sbi.co.in/web/careers"
+  },
+  {
+    "id": "SSC_CHSL",
+    "name": "SSC - CHSL",
+    "description": "Recruits clerks, data entry operators, postal and sorting assistants in central offices.",
+    "min_age": 18,
+    "max_age": {
+      "General": 27,
+      "OBC": 30,
+      "SC": 32,
+      "ST": 32
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "SSC",
+    "group": [
+      "C",
+      "Clerical-services"
+    ],
+    "official_link": "https://ssc.nic.in/"
+  },
+  {
+    "id": "RRB_NTPC",
+    "name": "RAILWAY NTPC",
+    "description": "Recruits clerks, station masters, traffic assistants, goods guards in Indian Railways.",
+    "min_age": 18,
+    "max_age": {
+      "General": 33,
+      "OBC": 36,
+      "SC": 38,
+      "ST": 38
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "RRB",
+    "group": [
+      "C",
+      "Railway-services"
+    ],
+    "official_link": "https://www.rrbcdg.gov.in/"
+  },
+  {
+    "id": "RRB_GROUP_D",
+    "name": "RAILWAY GROUP D",
+    "description": "Recruits helpers, track maintainers, porters and ground staff in Indian Railways.",
+    "min_age": 18,
+    "max_age": {
+      "General": 33,
+      "OBC": 36,
+      "SC": 38,
+      "ST": 38
+    },
+    "eligibility": [
+      "10th"
+    ],
+    "states": "all",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "RRB",
+    "group": [
+      "D",
+      "Support-services"
+    ],
+    "official_link": "https://www.rrbcdg.gov.in/"
+  },
+  {
+    "id": "BPSC_CCE",
+    "name": "BIHAR PUBLIC SERVICE COMMISSION COMBINED COMPETITIVE EXAM",
+    "description": "Top-level administrative exam of Bihar to recruit officers like SDM, DSP, BDO, Revenue Officer and other civil services posts responsible for district and state governance.",
+    "min_age": 21,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "bihar",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BPSC",
+    "group": [
+      "A",
+      "State-civil-service"
+    ],
+    "official_link": "https://www.bpsc.bih.nic.in/"
+  },
+  {
+    "id": "BPSSC_SI",
+    "name": "BIHAR POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment exam for Sub-Inspector posts in Bihar Police, responsible for law enforcement, investigation, and public safety operations.",
+    "min_age": 20,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "bihar",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BPSSC",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://bpssc.bih.nic.in/"
+  },
+  {
+    "id": "CSBC_CONSTABLE",
+    "name": "BIHAR POLICE CONSTABLE RECRUITMENT",
+    "description": "Recruitment for constable posts in Bihar Police and allied forces responsible for ground-level law enforcement and public order.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "bihar",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "CSBC",
+    "group": [
+      "C",
+      "Police-force"
+    ],
+    "official_link": "https://csbc.bih.nic.in/"
+  },
+  {
+    "id": "BSSC_INTER",
+    "name": "BIHAR STAFF SELECTION COMMISSION INTER LEVEL EXAM",
+    "description": "Recruitment for clerical, assistant, data operator and support staff roles in Bihar government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "bihar",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BSSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://bssc.bihar.gov.in/"
+  },
+  {
+    "id": "BSSC_GRAD",
+    "name": "BIHAR STAFF SELECTION COMMISSION GRADUATE LEVEL EXAM",
+    "description": "Recruitment for graduate-level administrative and technical posts in Bihar government offices.",
+    "min_age": 21,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "bihar",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BSSC",
+    "group": [
+      "B",
+      "State-service"
+    ],
+    "official_link": "https://bssc.bihar.gov.in/"
+  },
+  {
+    "id": "BTSC_PARAMEDICAL",
+    "name": "BIHAR TECHNICAL SERVICE COMMISSION EXAM",
+    "description": "Recruitment for technical and paramedical posts like lab technician, pharmacist, health assistant in Bihar health departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "bihar",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BTSC",
+    "group": [
+      "B",
+      "Technical-service"
+    ],
+    "official_link": "https://btsc.bihar.gov.in/"
+  },
+  {
+    "id": "BIHAR_TET",
+    "name": "BIHAR TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of government teachers in primary and secondary schools of Bihar.",
+    "min_age": 21,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "bihar",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BSEB",
+    "group": [
+      "B",
+      "Education-service"
+    ],
+    "official_link": "https://www.bsebonline.net/"
+  },
+  {
+    "id": "BPSC_AE",
+    "name": "BPSC ASSISTANT ENGINEER EXAM",
+    "description": "Recruitment for Assistant Engineer posts in Bihar government departments for infrastructure, public works and development projects.",
+    "min_age": 21,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "bihar",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BPSC",
+    "group": [
+      "A",
+      "Engineering-service"
+    ],
+    "official_link": "https://www.bpsc.bih.nic.in/"
+  },
+  {
+    "id": "WBPSC_WBCS",
+    "name": "WEST BENGAL CIVIL SERVICE EXAM",
+    "description": "Top-level administrative exam of West Bengal for recruitment of WBCS officers like SDM, DSP, BDO, Revenue Officer and other state administrative services.",
+    "min_age": 21,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "west_bengal",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "WBPSC",
+    "group": [
+      "A",
+      "State-civil-service"
+    ],
+    "official_link": "https://wbpsc.gov.in/"
+  },
+  {
+    "id": "WB_POLICE_SI",
+    "name": "WEST BENGAL POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment exam for Sub-Inspector posts in West Bengal Police, responsible for investigation, law enforcement and public safety.",
+    "min_age": 20,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "west_bengal",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "WBPRB",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://wbpolice.gov.in/"
+  },
+  {
+    "id": "WB_POLICE_CONSTABLE",
+    "name": "WEST BENGAL POLICE CONSTABLE RECRUITMENT",
+    "description": "Recruitment for constable posts in West Bengal Police responsible for ground-level law enforcement and public order maintenance.",
+    "min_age": 18,
+    "max_age": {
+      "General": 27,
+      "OBC": 30,
+      "SC": 32,
+      "ST": 32
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "west_bengal",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "WBPRB",
+    "group": [
+      "C",
+      "Police-force"
+    ],
+    "official_link": "https://wbpolice.gov.in/"
+  },
+  {
+    "id": "WBSSC_INTER",
+    "name": "WEST BENGAL STAFF SELECTION COMMISSION INTER LEVEL EXAM",
+    "description": "Recruitment for clerical, assistant, data entry and support staff roles in West Bengal government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "west_bengal",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "WBSSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://wbssc.gov.in/"
+  },
+  {
+    "id": "WBSSC_GRAD",
+    "name": "WEST BENGAL STAFF SELECTION COMMISSION GRADUATE LEVEL EXAM",
+    "description": "Recruitment for graduate-level administrative and departmental posts in West Bengal government offices.",
+    "min_age": 21,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "west_bengal",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "WBSSC",
+    "group": [
+      "B",
+      "State-service"
+    ],
+    "official_link": "https://wbssc.gov.in/"
+  },
+  {
+    "id": "WB_TET",
+    "name": "WEST BENGAL TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of government teachers in primary and secondary schools of West Bengal.",
+    "min_age": 21,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "west_bengal",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "WBBPE",
+    "group": [
+      "B",
+      "Education-service"
+    ],
+    "official_link": "https://www.wbbpe.org/"
+  },
+  {
+    "id": "WBPSC_AE",
+    "name": "WBPSC ASSISTANT ENGINEER EXAM",
+    "description": "Recruitment for Assistant Engineer posts in West Bengal government departments for infrastructure, irrigation, power and public works projects.",
+    "min_age": 21,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "west_bengal",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "WBPSC",
+    "group": [
+      "A",
+      "Engineering-service"
+    ],
+    "official_link": "https://wbpsc.gov.in/"
+  },
+  {
+    "id": "WB_HEALTH_RECRUIT",
+    "name": "WEST BENGAL HEALTH RECRUITMENT EXAM",
+    "description": "Recruitment for technical, nursing, paramedical and health service posts in West Bengal health departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "west_bengal",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "WBHRB",
+    "group": [
+      "B",
+      "Health-service"
+    ],
+    "official_link": "https://www.wbhrb.in/"
+  },
+  {
+    "id": "DSSSB_GROUP_BC",
+    "name": "DELHI SUBORDINATE SERVICES SELECTION BOARD EXAM",
+    "description": "Main recruitment exam for Group B and Group C posts in Delhi Government departments including clerical, technical, teaching, and administrative roles.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "delhi",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "DSSSB",
+    "group": [
+      "B",
+      "C",
+      "State-service"
+    ],
+    "official_link": "https://dsssb.delhi.gov.in/"
+  },
+  {
+    "id": "DELHI_POLICE_SI",
+    "name": "DELHI POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment exam for Sub-Inspector posts in Delhi Police responsible for investigation, law enforcement, and internal security.",
+    "min_age": 20,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "delhi",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "SSC",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://ssc.nic.in/"
+  },
+  {
+    "id": "DELHI_POLICE_CONSTABLE",
+    "name": "DELHI POLICE CONSTABLE EXAM",
+    "description": "Recruitment exam for Constable posts in Delhi Police responsible for ground-level policing, public order, and security management.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "delhi",
+    "govt_type": "CENTRAL GOVERNMENT",
+    "conducting_type": "SSC",
+    "group": [
+      "C",
+      "Police-force"
+    ],
+    "official_link": "https://ssc.nic.in/"
+  },
+  {
+    "id": "DELHI_TET",
+    "name": "DELHI TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of government teachers in Delhi government schools for primary and secondary education.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "delhi",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SCERT_DELHI",
+    "group": [
+      "B",
+      "Education-service"
+    ],
+    "official_link": "https://scert.delhi.gov.in/"
+  },
+  {
+    "id": "DELHI_HEALTH_RECRUIT",
+    "name": "DELHI HEALTH SERVICES RECRUITMENT EXAM",
+    "description": "Recruitment for nursing, paramedical, technical, and health service posts in Delhi government hospitals and health departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "delhi",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "DHS_DELHI",
+    "group": [
+      "B",
+      "Health-service"
+    ],
+    "official_link": "https://health.delhi.gov.in/"
+  },
+  {
+    "id": "DELHI_JUDICIAL",
+    "name": "DELHI JUDICIAL SERVICES EXAM",
+    "description": "Recruitment exam for Civil Judge posts in Delhi Judiciary responsible for judicial administration and dispute resolution.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "delhi",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "DELHI_HIGH_COURT",
+    "group": [
+      "A",
+      "Judicial-service"
+    ],
+    "official_link": "https://delhihighcourt.nic.in/"
+  },
+  {
+    "id": "DELHI_MUNICIPAL_RECRUIT",
+    "name": "DELHI MUNICIPAL CORPORATION RECRUITMENT EXAM",
+    "description": "Recruitment for administrative, clerical, sanitation, engineering and departmental posts in Municipal Corporation of Delhi.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "delhi",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MCD",
+    "group": [
+      "B",
+      "C",
+      "Municipal-service"
+    ],
+    "official_link": "https://mcdonline.nic.in/"
+  },
+  {
+    "id": "UPPSC_PCS",
+    "name": "UTTAR PRADESH PUBLIC SERVICE COMMISSION PCS EXAM",
+    "description": "Top-level administrative exam of Uttar Pradesh for recruitment of SDM, DSP, BDO, Tehsildar and other state civil service officers responsible for district and state administration.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "uttar_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UPPSC",
+    "group": [
+      "A",
+      "State-civil-service"
+    ],
+    "official_link": "https://uppsc.up.nic.in/"
+  },
+  {
+    "id": "UP_SI",
+    "name": "UTTAR PRADESH POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment exam for Sub-Inspector posts in Uttar Pradesh Police responsible for investigation, law enforcement, and public safety.",
+    "min_age": 21,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "uttar_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UPPRPB",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://uppbpb.gov.in/"
+  },
+  {
+    "id": "UP_CONSTABLE",
+    "name": "UTTAR PRADESH POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Uttar Pradesh Police responsible for ground-level policing, law enforcement and public order.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "uttar_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UPPRPB",
+    "group": [
+      "C",
+      "Police-force"
+    ],
+    "official_link": "https://uppbpb.gov.in/"
+  },
+  {
+    "id": "UPSSSC_INTER",
+    "name": "UTTAR PRADESH SUBORDINATE SERVICES SELECTION COMMISSION INTER LEVEL EXAM",
+    "description": "Recruitment for clerical, assistant, stenographer, data entry and support staff roles in Uttar Pradesh government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "uttar_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UPSSSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://upsssc.gov.in/"
+  },
+  {
+    "id": "UPSSSC_GRAD",
+    "name": "UTTAR PRADESH SUBORDINATE SERVICES SELECTION COMMISSION GRADUATE LEVEL EXAM",
+    "description": "Recruitment for graduate-level administrative and departmental posts in Uttar Pradesh government offices.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "uttar_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UPSSSC",
+    "group": [
+      "B",
+      "State-service"
+    ],
+    "official_link": "https://upsssc.gov.in/"
+  },
+  {
+    "id": "UP_TET",
+    "name": "UTTAR PRADESH TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of government teachers in primary and secondary schools of Uttar Pradesh.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "uttar_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UPBEB",
+    "group": [
+      "B",
+      "Education-service"
+    ],
+    "official_link": "https://updeled.gov.in/"
+  },
+  {
+    "id": "UPPSC_AE",
+    "name": "UPPSC ASSISTANT ENGINEER EXAM",
+    "description": "Recruitment for Assistant Engineer posts in Uttar Pradesh government departments for infrastructure, irrigation, power, and public works projects.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "uttar_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UPPSC",
+    "group": [
+      "A",
+      "Engineering-service"
+    ],
+    "official_link": "https://uppsc.up.nic.in/"
+  },
+  {
+    "id": "UP_HEALTH_RECRUIT",
+    "name": "UTTAR PRADESH HEALTH SERVICES RECRUITMENT EXAM",
+    "description": "Recruitment for nursing, paramedical, technical, and health service posts in Uttar Pradesh government hospitals and health departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "uttar_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UPHESC",
+    "group": [
+      "B",
+      "Health-service"
+    ],
+    "official_link": "https://uphesc.org/"
+  },
+  {
+    "id": "UKPSC_PCS",
+    "name": "UTTARAKHAND PUBLIC SERVICE COMMISSION PCS EXAM",
+    "description": "Top-level administrative exam of Uttarakhand for recruitment of SDM, DSP, BDO, Tehsildar and other state civil service officers responsible for district and state administration.",
+    "min_age": 21,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "uttarakhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UKPSC",
+    "group": [
+      "A",
+      "State-civil-service"
+    ],
+    "official_link": "https://ukpsc.net.in/"
+  },
+  {
+    "id": "UK_POLICE_SI",
+    "name": "UTTARAKHAND POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment exam for Sub-Inspector posts in Uttarakhand Police responsible for investigation, law enforcement, and public safety.",
+    "min_age": 21,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "uttarakhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UKSSSC",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://uksssc.gov.in/"
+  },
+  {
+    "id": "UK_POLICE_CONSTABLE",
+    "name": "UTTARAKHAND POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Uttarakhand Police responsible for ground-level policing, public order, and internal security.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "uttarakhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UKSSSC",
+    "group": [
+      "C",
+      "Police-force"
+    ],
+    "official_link": "https://uksssc.gov.in/"
+  },
+  {
+    "id": "UKSSSC_INTER",
+    "name": "UTTARAKHAND SUBORDINATE SERVICES SELECTION COMMISSION INTER LEVEL EXAM",
+    "description": "Recruitment for clerical, assistant, stenographer, data entry and support staff roles in Uttarakhand government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "uttarakhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UKSSSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://uksssc.gov.in/"
+  },
+  {
+    "id": "UKSSSC_GRAD",
+    "name": "UTTARAKHAND SUBORDINATE SERVICES SELECTION COMMISSION GRADUATE LEVEL EXAM",
+    "description": "Recruitment for graduate-level administrative and departmental posts in Uttarakhand government offices.",
+    "min_age": 21,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "uttarakhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UKSSSC",
+    "group": [
+      "B",
+      "State-service"
+    ],
+    "official_link": "https://uksssc.gov.in/"
+  },
+  {
+    "id": "UK_TET",
+    "name": "UTTARAKHAND TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of government teachers in primary and secondary schools of Uttarakhand.",
+    "min_age": 21,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "uttarakhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UBSE",
+    "group": [
+      "B",
+      "Education-service"
+    ],
+    "official_link": "https://ukutet.com/"
+  },
+  {
+    "id": "UKPSC_AE",
+    "name": "UKPSC ASSISTANT ENGINEER EXAM",
+    "description": "Recruitment for Assistant Engineer posts in Uttarakhand government departments for infrastructure, irrigation, power, and public works projects.",
+    "min_age": 21,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "uttarakhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UKPSC",
+    "group": [
+      "A",
+      "Engineering-service"
+    ],
+    "official_link": "https://ukpsc.net.in/"
+  },
+  {
+    "id": "UK_HEALTH_RECRUIT",
+    "name": "UTTARAKHAND HEALTH SERVICES RECRUITMENT EXAM",
+    "description": "Recruitment for nursing, paramedical, technical, and health service posts in Uttarakhand government hospitals and health departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "uttarakhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "UKMSSB",
+    "group": [
+      "B",
+      "Health-service"
+    ],
+    "official_link": "https://ukmssb.org/"
+  },
+  {
+    "id": "HPSC_PCS",
+    "name": "HARYANA PUBLIC SERVICE COMMISSION PCS EXAM",
+    "description": "Top-level administrative exam of Haryana for recruitment of HCS officers like SDM, DSP, BDO, Tehsildar and other state civil service officers responsible for district and state administration.",
+    "min_age": 21,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "haryana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HPSC",
+    "group": [
+      "A",
+      "State-civil-service"
+    ],
+    "official_link": "https://hpsc.gov.in/"
+  },
+  {
+    "id": "HR_POLICE_SI",
+    "name": "HARYANA POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment exam for Sub-Inspector posts in Haryana Police responsible for investigation, law enforcement, and public safety.",
+    "min_age": 21,
+    "max_age": {
+      "General": 27,
+      "OBC": 30,
+      "SC": 32,
+      "ST": 32
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "haryana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HSSC",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://hssc.gov.in/"
+  },
+  {
+    "id": "HR_POLICE_CONSTABLE",
+    "name": "HARYANA POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Haryana Police responsible for ground-level policing, law enforcement and public order.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "haryana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HSSC",
+    "group": [
+      "C",
+      "Police-force"
+    ],
+    "official_link": "https://hssc.gov.in/"
+  },
+  {
+    "id": "HSSC_INTER",
+    "name": "HARYANA STAFF SELECTION COMMISSION INTER LEVEL EXAM",
+    "description": "Recruitment for clerical, assistant, stenographer, data entry and support staff roles in Haryana government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "haryana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HSSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://hssc.gov.in/"
+  },
+  {
+    "id": "HSSC_GRAD",
+    "name": "HARYANA STAFF SELECTION COMMISSION GRADUATE LEVEL EXAM",
+    "description": "Recruitment for graduate-level administrative and departmental posts in Haryana government offices.",
+    "min_age": 21,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "haryana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HSSC",
+    "group": [
+      "B",
+      "State-service"
+    ],
+    "official_link": "https://hssc.gov.in/"
+  },
+  {
+    "id": "HTET",
+    "name": "HARYANA TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of government teachers in primary and secondary schools of Haryana.",
+    "min_age": 21,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "haryana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BSEH",
+    "group": [
+      "B",
+      "Education-service"
+    ],
+    "official_link": "https://bseh.org.in/"
+  },
+  {
+    "id": "HPSC_AE",
+    "name": "HPSC ASSISTANT ENGINEER EXAM",
+    "description": "Recruitment for Assistant Engineer posts in Haryana government departments for infrastructure, irrigation, power, and public works projects.",
+    "min_age": 21,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "haryana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HPSC",
+    "group": [
+      "A",
+      "Engineering-service"
+    ],
+    "official_link": "https://hpsc.gov.in/"
+  },
+  {
+    "id": "HR_HEALTH_RECRUIT",
+    "name": "HARYANA HEALTH SERVICES RECRUITMENT EXAM",
+    "description": "Recruitment for nursing, paramedical, technical, and health service posts in Haryana government hospitals and health departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 42,
+      "OBC": 45,
+      "SC": 47,
+      "ST": 47
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "haryana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HSSC_HEALTH",
+    "group": [
+      "B",
+      "Health-service"
+    ],
+    "official_link": "https://haryanahealth.nic.in/"
+  },
+  {
+    "id": "RPSC_RAS",
+    "name": "RAJASTHAN ADMINISTRATIVE SERVICE (RAS) EXAM",
+    "description": "Top-level administrative exam of Rajasthan for recruitment of RAS officers like SDM, DSP, Tehsildar and other state civil service officers responsible for district and state administration.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "rajasthan",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "RPSC",
+    "group": [
+      "A",
+      "State-civil-service"
+    ],
+    "official_link": "https://rpsc.rajasthan.gov.in/"
+  },
+  {
+    "id": "RJ_POLICE_SI",
+    "name": "RAJASTHAN POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment exam for Sub-Inspector posts in Rajasthan Police responsible for investigation, law enforcement, and public safety.",
+    "min_age": 20,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "rajasthan",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "RPRB",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://police.rajasthan.gov.in/"
+  },
+  {
+    "id": "RJ_POLICE_CONSTABLE",
+    "name": "RAJASTHAN POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Rajasthan Police responsible for ground-level policing, public order, and internal security.",
+    "min_age": 18,
+    "max_age": {
+      "General": 24,
+      "OBC": 27,
+      "SC": 29,
+      "ST": 29
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "rajasthan",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "RPRB",
+    "group": [
+      "C",
+      "Police-force"
+    ],
+    "official_link": "https://police.rajasthan.gov.in/"
+  },
+  {
+    "id": "RSMSSB_INTER",
+    "name": "RAJASTHAN STAFF SELECTION BOARD INTER LEVEL EXAM",
+    "description": "Recruitment for clerical, assistant, stenographer, data entry and support staff roles in Rajasthan government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "rajasthan",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "RSMSSB",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://rsmssb.rajasthan.gov.in/"
+  },
+  {
+    "id": "RSMSSB_GRAD",
+    "name": "RAJASTHAN STAFF SELECTION BOARD GRADUATE LEVEL EXAM",
+    "description": "Recruitment for graduate-level administrative and departmental posts in Rajasthan government offices.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "rajasthan",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "RSMSSB",
+    "group": [
+      "B",
+      "State-service"
+    ],
+    "official_link": "https://rsmssb.rajasthan.gov.in/"
+  },
+  {
+    "id": "RTET_REET",
+    "name": "RAJASTHAN TEACHER ELIGIBILITY TEST (REET)",
+    "description": "Eligibility exam for recruitment of government teachers in primary and secondary schools of Rajasthan.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "rajasthan",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BSER",
+    "group": [
+      "B",
+      "Education-service"
+    ],
+    "official_link": "https://rajeduboard.rajasthan.gov.in/"
+  },
+  {
+    "id": "RPSC_AE",
+    "name": "RPSC ASSISTANT ENGINEER EXAM",
+    "description": "Recruitment for Assistant Engineer posts in Rajasthan government departments for infrastructure, irrigation, power, and public works projects.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "rajasthan",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "RPSC",
+    "group": [
+      "A",
+      "Engineering-service"
+    ],
+    "official_link": "https://rpsc.rajasthan.gov.in/"
+  },
+  {
+    "id": "RJ_HEALTH_RECRUIT",
+    "name": "RAJASTHAN HEALTH SERVICES RECRUITMENT EXAM",
+    "description": "Recruitment for nursing, paramedical, technical, and health service posts in Rajasthan government hospitals and health departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "rajasthan",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "RSMSSB_HEALTH",
+    "group": [
+      "B",
+      "Health-service"
+    ],
+    "official_link": "https://health.rajasthan.gov.in/"
+  },
+  {
+    "id": "GPSC_CLASS_1_2",
+    "name": "GUJARAT PUBLIC SERVICE COMMISSION CLASS 1 & 2 EXAM",
+    "description": "Top-level administrative exam of Gujarat for recruitment of Class 1 and Class 2 officers like Dy Collector, Dy SP, Mamlatdar and other state civil service officers responsible for district and state administration.",
+    "min_age": 20,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "gujarat",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GPSC",
+    "group": [
+      "A",
+      "B",
+      "State-civil-service"
+    ],
+    "official_link": "https://gpsc.gujarat.gov.in/"
+  },
+  {
+    "id": "GJ_POLICE_SI",
+    "name": "GUJARAT POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment exam for Sub-Inspector posts in Gujarat Police responsible for investigation, law enforcement, and public safety.",
+    "min_age": 20,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "gujarat",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GPRB",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://gprb.gujarat.gov.in/"
+  },
+  {
+    "id": "GJ_POLICE_CONSTABLE",
+    "name": "GUJARAT POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Gujarat Police responsible for ground-level policing, public order, and internal security.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "gujarat",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GPRB",
+    "group": [
+      "C",
+      "Police-force"
+    ],
+    "official_link": "https://gprb.gujarat.gov.in/"
+  },
+  {
+    "id": "GSSSB_INTER",
+    "name": "GUJARAT SUBORDINATE SERVICES SELECTION BOARD INTER LEVEL EXAM",
+    "description": "Recruitment for clerical, assistant, stenographer, data entry and support staff roles in Gujarat government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "gujarat",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GSSSB",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://gsssb.gujarat.gov.in/"
+  },
+  {
+    "id": "GSSSB_GRAD",
+    "name": "GUJARAT SUBORDINATE SERVICES SELECTION BOARD GRADUATE LEVEL EXAM",
+    "description": "Recruitment for graduate-level administrative and departmental posts in Gujarat government offices.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "gujarat",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GSSSB",
+    "group": [
+      "B",
+      "State-service"
+    ],
+    "official_link": "https://gsssb.gujarat.gov.in/"
+  },
+  {
+    "id": "GJ_TET",
+    "name": "GUJARAT TEACHER ELIGIBILITY TEST (TET)",
+    "description": "Eligibility exam for recruitment of government teachers in primary and secondary schools of Gujarat.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "gujarat",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GSEB",
+    "group": [
+      "B",
+      "Education-service"
+    ],
+    "official_link": "https://www.gseb.org/"
+  },
+  {
+    "id": "GPSC_AE",
+    "name": "GPSC ASSISTANT ENGINEER EXAM",
+    "description": "Recruitment for Assistant Engineer posts in Gujarat government departments for infrastructure, irrigation, power, and public works projects.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "gujarat",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GPSC",
+    "group": [
+      "A",
+      "Engineering-service"
+    ],
+    "official_link": "https://gpsc.gujarat.gov.in/"
+  },
+  {
+    "id": "GJ_HEALTH_RECRUIT",
+    "name": "GUJARAT HEALTH SERVICES RECRUITMENT EXAM",
+    "description": "Recruitment for nursing, paramedical, technical, and health service posts in Gujarat government hospitals and health departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "gujarat",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GPSC_HEALTH",
+    "group": [
+      "B",
+      "Health-service"
+    ],
+    "official_link": "https://gpsc.gujarat.gov.in/"
+  },
+  {
+    "id": "JPSC_PCS",
+    "name": "JPSC PCS",
+    "description": "State civil services exam for recruitment of Deputy Collector, DSP, BDO, Treasury Officer and other administrative officers in Jharkhand.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "jharkhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "JPSC",
+    "group": [
+      "A",
+      "B"
+    ],
+    "official_link": "https://www.jpsc.gov.in/"
+  },
+  {
+    "id": "JSSC_CONSTABLE",
+    "name": "Jharkhand Police Constable",
+    "description": "Recruitment exam for constable posts in Jharkhand Police and IRB battalions.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "jharkhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "JSSC",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://jssc.nic.in/"
+  },
+  {
+    "id": "JSSC_CLERK",
+    "name": "Jharkhand Secretariat Clerk",
+    "description": "Recruitment exam for clerical posts in Jharkhand government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "jharkhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "JSSC",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://jssc.nic.in/"
+  },
+  {
+    "id": "JTET",
+    "name": "Jharkhand TET",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in Jharkhand government schools.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "jharkhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "JAC",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://jac.jharkhand.gov.in/"
+  },
+  {
+    "id": "JSSC_HEALTH",
+    "name": "Jharkhand Health Services Recruitment",
+    "description": "Recruitment exams for ANM, Staff Nurse, Health Worker, and allied health posts in Jharkhand.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "jharkhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "JSSC",
+    "group": [
+      "C",
+      "D"
+    ],
+    "official_link": "https://jssc.nic.in/"
+  },
+  {
+    "id": "JSSC_FOREST_GUARD",
+    "name": "Jharkhand Forest Guard",
+    "description": "Recruitment exam for Forest Guard and Van Rakshak posts in Jharkhand Forest Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "jharkhand",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "JSSC",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://jssc.nic.in/"
+  },
+  {
+    "id": "MPPSC_SSE",
+    "name": "MPPSC State Services Exam",
+    "description": "State civil services exam for recruitment of Deputy Collector, DSP, Commercial Tax Officer, and other administrative officers in Madhya Pradesh.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "madhya_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPPSC",
+    "group": [
+      "A",
+      "B"
+    ],
+    "official_link": "https://mppsc.mp.gov.in/"
+  },
+  {
+    "id": "MP_POLICE_SI",
+    "name": "MP Police SI",
+    "description": "Recruitment exam for Sub-Inspector posts in Madhya Pradesh Police Department.",
+    "min_age": 21,
+    "max_age": {
+      "General": 28,
+      "OBC": 33,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "madhya_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPPEB",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://esb.mp.gov.in/"
+  },
+  {
+    "id": "MP_POLICE_CONSTABLE",
+    "name": "MP Police Constable",
+    "description": "Recruitment exam for constable posts in Madhya Pradesh Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 30,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "madhya_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPPEB",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://esb.mp.gov.in/"
+  },
+  {
+    "id": "MP_PATWARI",
+    "name": "MP Patwari",
+    "description": "Recruitment exam for Patwari (land records officer) in Madhya Pradesh Revenue Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "madhya_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPPEB",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://esb.mp.gov.in/"
+  },
+  {
+    "id": "MP_TET",
+    "name": "MP Teacher Eligibility Test",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in MP government schools.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "madhya_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPESB",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://esb.mp.gov.in/"
+  },
+  {
+    "id": "MP_HEALTH",
+    "name": "MP Health Services Recruitment",
+    "description": "Recruitment for Staff Nurse, ANM, Health Worker, Lab Technician, and allied health posts in MP.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "madhya_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPESB",
+    "group": [
+      "C",
+      "D"
+    ],
+    "official_link": "https://esb.mp.gov.in/"
+  },
+  {
+    "id": "MP_FOREST_GUARD",
+    "name": "MP Forest Guard",
+    "description": "Recruitment exam for Forest Guard and Van Rakshak posts in MP Forest Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 30,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "madhya_pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPESB",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://esb.mp.gov.in/"
+  },
+  {
+    "id": "MPSC_PSI",
+    "name": "MPSC State Services Exam",
+    "description": "State civil services exam for recruitment of Deputy Collector, DSP, Block Development Officer and other Class 1 and Class 2 administrative officers in Maharashtra.",
+    "min_age": 19,
+    "max_age": {
+      "General": 38,
+      "OBC": 41,
+      "SC": 43,
+      "ST": 43
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "maharashtra",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": [
+      "A",
+      "B"
+    ],
+    "official_link": "https://mpsc.gov.in/"
+  },
+  {
+    "id": "MH_POLICE_SI",
+    "name": "Maharashtra Police SI",
+    "description": "Recruitment exam for Sub-Inspector posts in Maharashtra Police Department.",
+    "min_age": 19,
+    "max_age": {
+      "General": 31,
+      "OBC": 34,
+      "SC": 36,
+      "ST": 36
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "maharashtra",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://mpsc.gov.in/"
+  },
+  {
+    "id": "MH_POLICE_CONSTABLE",
+    "name": "Maharashtra Police Constable",
+    "description": "Recruitment exam for constable posts in Maharashtra Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "maharashtra",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://mpsc.gov.in/"
+  },
+  {
+    "id": "MH_TALATHI",
+    "name": "Maharashtra Talathi",
+    "description": "Recruitment exam for Talathi (village revenue officer) in Maharashtra Revenue Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 38,
+      "OBC": 41,
+      "SC": 43,
+      "ST": 43
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "maharashtra",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MahaBhumi",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://mahabhumi.gov.in/"
+  },
+  {
+    "id": "MAHA_TET",
+    "name": "Maharashtra TET",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in Maharashtra government schools.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "maharashtra",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MSCE",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://mahatet.in/"
+  },
+  {
+    "id": "MH_HEALTH",
+    "name": "Maharashtra Health Services Recruitment",
+    "description": "Recruitment for Staff Nurse, ANM, Health Worker, Lab Technician and allied health posts in Maharashtra.",
+    "min_age": 18,
+    "max_age": {
+      "General": 38,
+      "OBC": 41,
+      "SC": 43,
+      "ST": 43
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "maharashtra",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "DMER",
+    "group": [
+      "C",
+      "D"
+    ],
+    "official_link": "https://www.med-edu.in/"
+  },
+  {
+    "id": "MH_FOREST_GUARD",
+    "name": "Maharashtra Forest Guard",
+    "description": "Recruitment exam for Forest Guard and Van Rakshak posts in Maharashtra Forest Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 27,
+      "OBC": 30,
+      "SC": 32,
+      "ST": 32
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "maharashtra",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MAHAForest",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://mahaforest.gov.in/"
+  },
+  {
+    "id": "APSC_CCE",
+    "name": "APSC Combined Competitive Exam",
+    "description": "State civil services exam for recruitment of ACS, APS, BDO, Superintendent of Taxes and other administrative officers in Assam.",
+    "min_age": 21,
+    "max_age": {
+      "General": 38,
+      "OBC": 41,
+      "SC": 43,
+      "ST": 43
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "assam",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "APSC",
+    "group": [
+      "A",
+      "B"
+    ],
+    "official_link": "https://apsc.nic.in/"
+  },
+  {
+    "id": "ASSAM_POLICE_SI",
+    "name": "Assam Police SI",
+    "description": "Recruitment exam for Sub-Inspector posts in Assam Police Department.",
+    "min_age": 21,
+    "max_age": {
+      "General": 26,
+      "OBC": 29,
+      "SC": 31,
+      "ST": 31
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "assam",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SLPRB",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://slprbassam.in/"
+  },
+  {
+    "id": "ASSAM_POLICE_CONSTABLE",
+    "name": "Assam Police Constable",
+    "description": "Recruitment exam for constable posts in Assam Police and Assam Commando Battalions.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "assam",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SLPRB",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://slprbassam.in/"
+  },
+  {
+    "id": "ASSAM_SECRETARIAT_ASSISTANT",
+    "name": "Assam Secretariat Assistant",
+    "description": "Recruitment exam for Assistant/Junior Assistant posts in Assam Secretariat departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "assam",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "ASSAM_SSC",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://assamssc.nic.in/"
+  },
+  {
+    "id": "ASSAM_TET",
+    "name": "Assam TET",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in Assam government schools.",
+    "min_age": 18,
+    "max_age": {
+      "General": 38,
+      "OBC": 41,
+      "SC": 43,
+      "ST": 43
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "assam",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SSA_Assam",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://ssa.assam.gov.in/"
+  },
+  {
+    "id": "ASSAM_HEALTH",
+    "name": "Assam Health Services Recruitment",
+    "description": "Recruitment for Staff Nurse, ANM, Health Worker, Lab Technician and allied health posts in Assam.",
+    "min_age": 18,
+    "max_age": {
+      "General": 38,
+      "OBC": 41,
+      "SC": 43,
+      "ST": 43
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "assam",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "NHM_Assam",
+    "group": [
+      "C",
+      "D"
+    ],
+    "official_link": "https://nhm.assam.gov.in/"
+  },
+  {
+    "id": "ASSAM_FOREST_GUARD",
+    "name": "Assam Forest Guard",
+    "description": "Recruitment exam for Forest Guard and Forester posts in Assam Forest Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "assam",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "Assam_Forest",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://forest.assam.gov.in/"
+  },
+  {
+    "id": "OPSC_OCS",
+    "name": "OPSC Odisha Civil Services",
+    "description": "State civil services exam for recruitment of OAS, OPS, BDO, Tehsildar and other administrative officers in Odisha.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "odisha",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "OPSC",
+    "group": [
+      "A",
+      "B"
+    ],
+    "official_link": "https://opsc.gov.in/"
+  },
+  {
+    "id": "ODISHA_POLICE_SI",
+    "name": "Odisha Police SI",
+    "description": "Recruitment exam for Sub-Inspector posts in Odisha Police Department.",
+    "min_age": 21,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "odisha",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "OSSC",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://ossc.gov.in/"
+  },
+  {
+    "id": "ODISHA_POLICE_CONSTABLE",
+    "name": "Odisha Police Constable",
+    "description": "Recruitment exam for constable posts in Odisha Police and OSAP battalions.",
+    "min_age": 18,
+    "max_age": {
+      "General": 23,
+      "OBC": 26,
+      "SC": 28,
+      "ST": 28
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "odisha",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "OSSC",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://ossc.gov.in/"
+  },
+  {
+    "id": "ODISHA_SECRETARIAT_ASST",
+    "name": "Odisha Secretariat Assistant",
+    "description": "Recruitment exam for Assistant Section Officer posts in Odisha Secretariat.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "odisha",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "OSSC",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://ossc.gov.in/"
+  },
+  {
+    "id": "OTET",
+    "name": "Odisha Teacher Eligibility Test",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in Odisha government schools.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "odisha",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "BSE_Odisha",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://bseodisha.ac.in/"
+  },
+  {
+    "id": "ODISHA_HEALTH",
+    "name": "Odisha Health Services Recruitment",
+    "description": "Recruitment for Staff Nurse, ANM, Health Worker, Lab Technician and allied health posts in Odisha.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "odisha",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "OSSHC",
+    "group": [
+      "C",
+      "D"
+    ],
+    "official_link": "https://www.osshc.gov.in/"
+  },
+  {
+    "id": "ODISHA_FOREST_GUARD",
+    "name": "Odisha Forest Guard",
+    "description": "Recruitment exam for Forest Guard and Forester posts in Odisha Forest Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 23,
+      "OBC": 26,
+      "SC": 28,
+      "ST": 28
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "odisha",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "Odisha_Forest",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://odishaforest.in/"
+  },
+  {
+    "id": "CG_POLICE_SI",
+    "name": "Chhattisgarh Police SI",
+    "description": "Recruitment exam for Sub-Inspector posts in Chhattisgarh Police Department.",
+    "min_age": 21,
+    "max_age": {
+      "General": 28,
+      "OBC": 33,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "chhattisgarh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "CGPHD",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://cgpolice.gov.in/"
+  },
+  {
+    "id": "CG_POLICE_CONSTABLE",
+    "name": "Chhattisgarh Police Constable",
+    "description": "Recruitment exam for constable posts in Chhattisgarh Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 23,
+      "OBC": 28,
+      "SC": 28,
+      "ST": 28
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "chhattisgarh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "CGPHD",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://cgpolice.gov.in/"
+  },
+  {
+    "id": "CG_PATWARI",
+    "name": "Chhattisgarh Patwari",
+    "description": "Recruitment exam for Patwari (land records officer) in Chhattisgarh Revenue Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "chhattisgarh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "CGVYAPAM",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://vyapam.cgstate.gov.in/"
+  },
+  {
+    "id": "CG_TET",
+    "name": "Chhattisgarh TET",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in Chhattisgarh government schools.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "chhattisgarh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "CGPEB",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://vyapam.cgstate.gov.in/"
+  },
+  {
+    "id": "CG_HEALTH",
+    "name": "Chhattisgarh Health Services Recruitment",
+    "description": "Recruitment for Staff Nurse, ANM, Health Worker, Lab Technician and allied health posts in Chhattisgarh.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "chhattisgarh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "CGHealth",
+    "group": [
+      "C",
+      "D"
+    ],
+    "official_link": "https://health.cg.gov.in/"
+  },
+  {
+    "id": "CG_FOREST_GUARD",
+    "name": "Chhattisgarh Forest Guard",
+    "description": "Recruitment exam for Forest Guard and Van Rakshak posts in Chhattisgarh Forest Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 23,
+      "OBC": 28,
+      "SC": 28,
+      "ST": 28
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "chhattisgarh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "CGForest",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://forest.cg.gov.in/"
+  },
+  {
+    "id": "PPSC_PCS",
+    "name": "Punjab Civil Services Exam",
+    "description": "State civil services exam for recruitment of SDM, DSP, Tehsildar, Excise & Taxation Officer and other administrative officers in Punjab.",
+    "min_age": 21,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "punjab",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "PPSC",
+    "group": [
+      "A",
+      "B"
+    ],
+    "official_link": "https://ppsc.gov.in/"
+  },
+  {
+    "id": "PUNJAB_POLICE_SI",
+    "name": "Punjab Police SI",
+    "description": "Recruitment exam for Sub-Inspector posts in Punjab Police Department.",
+    "min_age": 21,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "punjab",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "PunjabPolice",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://punjabpolice.gov.in/"
+  },
+  {
+    "id": "PUNJAB_POLICE_CONSTABLE",
+    "name": "Punjab Police Constable",
+    "description": "Recruitment exam for constable posts in Punjab Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "punjab",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "PunjabPolice",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://punjabpolice.gov.in/"
+  },
+  {
+    "id": "PB_PATWARI",
+    "name": "Punjab Patwari",
+    "description": "Recruitment exam for Patwari (land records officer) in Punjab Revenue Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "punjab",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "PSSSB",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://sssb.punjab.gov.in/"
+  },
+  {
+    "id": "PSTET",
+    "name": "Punjab State TET",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in Punjab government schools.",
+    "min_age": 18,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "punjab",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "PSEB",
+    "group": [
+      "C"
+    ],
+    "official_link": "https://pstet.pseb.ac.in/"
+  },
+  {
+    "id": "PB_HEALTH",
+    "name": "Punjab Health Services Recruitment",
+    "description": "Recruitment for Staff Nurse, ANM, Health Worker, Lab Technician and allied health posts in Punjab.",
+    "min_age": 18,
+    "max_age": {
+      "General": 37,
+      "OBC": 40,
+      "SC": 42,
+      "ST": 42
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "punjab",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "NHM_Punjab",
+    "group": [
+      "C",
+      "D"
+    ],
+    "official_link": "https://nhm.punjab.gov.in/"
+  },
+  {
+    "id": "PB_FOREST_GUARD",
+    "name": "Punjab Forest Guard",
+    "description": "Recruitment exam for Forest Guard and Van Rakshak posts in Punjab Forest Department.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "punjab",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "PunjabForest",
+    "group": [
+      "D"
+    ],
+    "official_link": "https://forest.punjab.gov.in/"
+  },
+  {
+    "id": "TNPSC_GROUP_1",
+    "name": "TAMIL NADU PUBLIC SERVICE COMMISSION GROUP I",
+    "description": "Recruitment for top administrative posts like Deputy Collector, DSP, Assistant Commissioner, and District Registrar in Tamil Nadu government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 37,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "tamil nadu",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TNPSC",
+    "group": [
+      "A",
+      "Administrative-service"
+    ],
+    "official_link": "https://www.tnpsc.gov.in/"
+  },
+  {
+    "id": "TNPSC_GROUP_2",
+    "name": "TAMIL NADU PUBLIC SERVICE COMMISSION GROUP II",
+    "description": "Recruitment for executive and non-executive administrative posts in various Tamil Nadu government departments.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 37,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "tamil nadu",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TNPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://www.tnpsc.gov.in/"
+  },
+  {
+    "id": "TNPSC_GROUP_4",
+    "name": "TAMIL NADU PUBLIC SERVICE COMMISSION GROUP IV",
+    "description": "Recruitment for clerical and assistant posts like VAO, Junior Assistant, Typist, and Steno-Typist in Tamil Nadu government offices.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 37,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "tamil nadu",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TNPSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://www.tnpsc.gov.in/"
+  },
+  {
+    "id": "TNUSRB_SI",
+    "name": "TAMIL NADU POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Tamil Nadu Police, including Taluk, Armed Reserve, and TSP battalions.",
+    "min_age": 20,
+    "max_age": {
+      "General": 30,
+      "OBC": 32,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "tamil nadu",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TNUSRB",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://www.tnusrb.tn.gov.in/"
+  },
+  {
+    "id": "TNUSRB_CONSTABLE",
+    "name": "TAMIL NADU POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Gr-II Police Constable, Jail Warder, and Fireman posts in Tamil Nadu.",
+    "min_age": 18,
+    "max_age": {
+      "General": 26,
+      "OBC": 28,
+      "SC": 31,
+      "ST": 31
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "tamil nadu",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TNUSRB",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://www.tnusrb.tn.gov.in/"
+  },
+  {
+    "id": "TRB_TNTET",
+    "name": "TAMIL NADU TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and government-aided schools in Tamil Nadu.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "tamil nadu",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TRB",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://www.trb.tn.gov.in/"
+  },
+  {
+    "id": "TN_MRB",
+    "name": "TAMIL NADU MEDICAL RECRUITMENT BOARD EXAM",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and other medical posts in Tamil Nadu government hospitals.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "tamil nadu",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MRB",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://www.mrb.tn.gov.in/"
+  },
+  {
+    "id": "KPSC_GROUP_A",
+    "name": "KARNATAKA PUBLIC SERVICE COMMISSION GROUP A",
+    "description": "Recruitment for top administrative posts like Deputy Commissioner, Assistant Commissioner, and Tahsildar in Karnataka government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "karnataka",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KPSC",
+    "group": [
+      "A",
+      "Administrative-service"
+    ],
+    "official_link": "https://kpsc.kar.nic.in/"
+  },
+  {
+    "id": "KPSC_GROUP_B",
+    "name": "KARNATAKA PUBLIC SERVICE COMMISSION GROUP B",
+    "description": "Recruitment for gazetted and non-gazetted officers in Karnataka government departments.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "karnataka",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://kpsc.kar.nic.in/"
+  },
+  {
+    "id": "KPSC_GROUP_C",
+    "name": "KARNATAKA PUBLIC SERVICE COMMISSION GROUP C",
+    "description": "Recruitment for clerical and assistant posts in Karnataka government offices.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "karnataka",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KPSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://kpsc.kar.nic.in/"
+  },
+  {
+    "id": "KSP_SI",
+    "name": "KARNATAKA POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Karnataka Police (Civil, Armed Reserve, and Wireless divisions).",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 32,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "karnataka",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KSP",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://ksp.karnataka.gov.in/"
+  },
+  {
+    "id": "KSP_CONSTABLE",
+    "name": "KARNATAKA POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Civil Police Constable, Armed Constable, and Wireless Constable posts in Karnataka Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "karnataka",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KSP",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://ksp.karnataka.gov.in/"
+  },
+  {
+    "id": "KARNATAKA_TET",
+    "name": "KARNATAKA TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and government-aided schools in Karnataka.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "karnataka",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KARTET",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://schooleducation.kar.nic.in/"
+  },
+  {
+    "id": "KEA_RECRUITMENT",
+    "name": "KARNATAKA EXAMINATIONS AUTHORITY RECRUITMENT",
+    "description": "Recruitment for technical, paramedical, and departmental posts through Karnataka Examination Authority.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "karnataka",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KEA",
+    "group": [
+      "B",
+      "Technical-service"
+    ],
+    "official_link": "https://cetonline.karnataka.gov.in/kea/"
+  },
+  {
+    "id": "KEA_RECRUITMENT",
+    "name": "KARNATAKA EXAMINATIONS AUTHORITY RECRUITMENT",
+    "description": "Recruitment for technical, paramedical, and departmental posts through Karnataka Examination Authority.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "karnataka",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KEA",
+    "group": [
+      "B",
+      "Technical-service"
+    ],
+    "official_link": "https://cetonline.karnataka.gov.in/kea/"
+  },
+  {
+    "id": "KPSC_GROUP_A",
+    "name": "KERALA PUBLIC SERVICE COMMISSION GROUP A",
+    "description": "Recruitment for top administrative posts like Deputy Collector, Deputy Superintendent of Police, and District Officers in Kerala government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "kerala",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KPSC",
+    "group": [
+      "A",
+      "Administrative-service"
+    ],
+    "official_link": "https://www.keralapsc.gov.in/"
+  },
+  {
+    "id": "KPSC_GROUP_B",
+    "name": "KERALA PUBLIC SERVICE COMMISSION GROUP B",
+    "description": "Recruitment for gazetted and departmental officer posts in Kerala government services.",
+    "min_age": 21,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "kerala",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://www.keralapsc.gov.in/"
+  },
+  {
+    "id": "KPSC_GROUP_C",
+    "name": "KERALA PUBLIC SERVICE COMMISSION GROUP C",
+    "description": "Recruitment for clerical, assistant, and office staff posts in Kerala government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "kerala",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KPSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://www.keralapsc.gov.in/"
+  },
+  {
+    "id": "KERALA_POLICE_SI",
+    "name": "KERALA POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Civil Police and Armed Police battalions in Kerala.",
+    "min_age": 20,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "kerala",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KERALA_POLICE",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://keralapolice.gov.in/"
+  },
+  {
+    "id": "KERALA_POLICE_CONSTABLE",
+    "name": "KERALA POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Civil Police Officer and Armed Police Constable posts in Kerala Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 29,
+      "OBC": 32,
+      "SC": 34,
+      "ST": 34
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "kerala",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KERALA_POLICE",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://keralapolice.gov.in/"
+  },
+  {
+    "id": "KTET",
+    "name": "KERALA TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and aided schools in Kerala.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "kerala",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KTET",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://ktet.kerala.gov.in/"
+  },
+  {
+    "id": "KERALA_HEALTH_SERVICES",
+    "name": "KERALA HEALTH SERVICES RECRUITMENT",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and medical staff posts in Kerala government hospitals.",
+    "min_age": 18,
+    "max_age": {
+      "General": 36,
+      "OBC": 39,
+      "SC": 41,
+      "ST": 41
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "kerala",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "KPSC_HEALTH",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://www.keralapsc.gov.in/"
+  },
+  {
+    "id": "APPSC_GROUP_1",
+    "name": "ANDHRA PRADESH PUBLIC SERVICE COMMISSION GROUP I",
+    "description": "Recruitment for top administrative posts like Deputy Collector, DSP, District Registrar, and Regional Transport Officer in Andhra Pradesh government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 34,
+      "OBC": 37,
+      "SC": 39,
+      "ST": 39
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "andhra pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "APPSC",
+    "group": [
+      "A",
+      "Administrative-service"
+    ],
+    "official_link": "https://psc.ap.gov.in/"
+  },
+  {
+    "id": "APPSC_GROUP_2",
+    "name": "ANDHRA PRADESH PUBLIC SERVICE COMMISSION GROUP II",
+    "description": "Recruitment for executive and non-executive administrative posts in Andhra Pradesh government departments.",
+    "min_age": 21,
+    "max_age": {
+      "General": 34,
+      "OBC": 37,
+      "SC": 39,
+      "ST": 39
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "andhra pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "APPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://psc.ap.gov.in/"
+  },
+  {
+    "id": "APPSC_GROUP_4",
+    "name": "ANDHRA PRADESH PUBLIC SERVICE COMMISSION GROUP IV",
+    "description": "Recruitment for clerical and assistant posts like Junior Assistant, Typist, and Panchayat Secretary in Andhra Pradesh government offices.",
+    "min_age": 18,
+    "max_age": {
+      "General": 34,
+      "OBC": 37,
+      "SC": 39,
+      "ST": 39
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "andhra pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "APPSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://psc.ap.gov.in/"
+  },
+  {
+    "id": "AP_POLICE_SI",
+    "name": "ANDHRA PRADESH POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Civil Police, Armed Police, and Special Branch in Andhra Pradesh Police.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "andhra pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "AP_POLICE",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://slprb.ap.gov.in/"
+  },
+  {
+    "id": "AP_POLICE_CONSTABLE",
+    "name": "ANDHRA PRADESH POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Civil Constable and Armed Constable posts in Andhra Pradesh Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "andhra pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "AP_POLICE",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://slprb.ap.gov.in/"
+  },
+  {
+    "id": "APTET",
+    "name": "ANDHRA PRADESH TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and aided schools in Andhra Pradesh.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "andhra pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "APTET",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://aptet.apcfss.in/"
+  },
+  {
+    "id": "AP_MRB",
+    "name": "ANDHRA PRADESH MEDICAL RECRUITMENT BOARD EXAM",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and paramedical posts in Andhra Pradesh government hospitals.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "andhra pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "AP_MRB",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://hmfw.ap.gov.in/"
+  },
+  {
+    "id": "TSPSC_GROUP_1",
+    "name": "TELANGANA STATE PUBLIC SERVICE COMMISSION GROUP I",
+    "description": "Recruitment for top administrative posts like Deputy Collector, DSP, Commercial Tax Officer, and District Registrar in Telangana government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 34,
+      "OBC": 37,
+      "SC": 39,
+      "ST": 39
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "telangana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TSPSC",
+    "group": [
+      "A",
+      "Administrative-service"
+    ],
+    "official_link": "https://www.tspsc.gov.in/"
+  },
+  {
+    "id": "TSPSC_GROUP_2",
+    "name": "TELANGANA STATE PUBLIC SERVICE COMMISSION GROUP II",
+    "description": "Recruitment for executive and non-executive administrative posts in Telangana government departments.",
+    "min_age": 21,
+    "max_age": {
+      "General": 34,
+      "OBC": 37,
+      "SC": 39,
+      "ST": 39
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "telangana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TSPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://www.tspsc.gov.in/"
+  },
+  {
+    "id": "TSPSC_GROUP_4",
+    "name": "TELANGANA STATE PUBLIC SERVICE COMMISSION GROUP IV",
+    "description": "Recruitment for clerical and assistant posts like Junior Assistant, Typist, and Record Assistant in Telangana government offices.",
+    "min_age": 18,
+    "max_age": {
+      "General": 34,
+      "OBC": 37,
+      "SC": 39,
+      "ST": 39
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "telangana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TSPSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://www.tspsc.gov.in/"
+  },
+  {
+    "id": "TS_POLICE_SI",
+    "name": "TELANGANA POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Civil Police, Armed Police, Special Police, and Intelligence branches of Telangana Police.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "telangana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TS_POLICE",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://www.tspolice.gov.in/"
+  },
+  {
+    "id": "TS_POLICE_CONSTABLE",
+    "name": "TELANGANA POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Civil Constable and Armed Constable posts in Telangana Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 25,
+      "OBC": 28,
+      "SC": 30,
+      "ST": 30
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "telangana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TS_POLICE",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://www.tspolice.gov.in/"
+  },
+  {
+    "id": "TSTET",
+    "name": "TELANGANA STATE TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and aided schools in Telangana.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "telangana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TSTET",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://tstet.cgg.gov.in/"
+  },
+  {
+    "id": "TS_MRB",
+    "name": "TELANGANA MEDICAL RECRUITMENT BOARD EXAM",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and paramedical posts in Telangana government hospitals.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "telangana",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TS_MRB",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://mhsrb.telangana.gov.in/"
+  },
+  {
+    "id": "HPPSC_GROUP_A",
+    "name": "HIMACHAL PRADESH PUBLIC SERVICE COMMISSION GROUP A",
+    "description": "Recruitment for top administrative posts like Deputy Commissioner, SDM, DSP, and Tehsildar in Himachal Pradesh government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "himachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HPPSC",
+    "group": [
+      "A",
+      "Administrative-service"
+    ],
+    "official_link": "https://hppsc.hp.gov.in/"
+  },
+  {
+    "id": "HPPSC_GROUP_B",
+    "name": "HIMACHAL PRADESH PUBLIC SERVICE COMMISSION GROUP B",
+    "description": "Recruitment for gazetted and departmental officer posts in Himachal Pradesh government services.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "himachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HPPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://hppsc.hp.gov.in/"
+  },
+  {
+    "id": "HPPSC_GROUP_C",
+    "name": "HIMACHAL PRADESH PUBLIC SERVICE COMMISSION GROUP C",
+    "description": "Recruitment for clerical, assistant, and office staff posts in Himachal Pradesh government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "himachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HPPSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://hppsc.hp.gov.in/"
+  },
+  {
+    "id": "HP_POLICE_SI",
+    "name": "HIMACHAL PRADESH POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Civil Police and Armed Police battalions in Himachal Pradesh.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "himachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HP_POLICE",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://hppolice.gov.in/"
+  },
+  {
+    "id": "HP_POLICE_CONSTABLE",
+    "name": "HIMACHAL PRADESH POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Himachal Pradesh Police (Civil & Armed).",
+    "min_age": 18,
+    "max_age": {
+      "General": 26,
+      "OBC": 29,
+      "SC": 31,
+      "ST": 31
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "himachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HP_POLICE",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://hppolice.gov.in/"
+  },
+  {
+    "id": "HPTET",
+    "name": "HIMACHAL PRADESH TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and aided schools in Himachal Pradesh.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "himachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HPTET",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://hpbose.org/"
+  },
+  {
+    "id": "HP_HEALTH_RECRUITMENT",
+    "name": "HIMACHAL PRADESH HEALTH SERVICES RECRUITMENT",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and paramedical posts in Himachal Pradesh government hospitals.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "himachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HPPSC_HEALTH",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://www.nrhmhp.gov.in/"
+  },
+  {
+    "id": "HP_HEALTH_RECRUITMENT",
+    "name": "HIMACHAL PRADESH HEALTH SERVICES RECRUITMENT",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and paramedical posts in Himachal Pradesh government hospitals.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "himachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "HPPSC_HEALTH",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://www.nrhmhp.gov.in/"
+  },
+  {
+    "id": "JKPSC_GROUP_B",
+    "name": "JAMMU AND KASHMIR PUBLIC SERVICE COMMISSION GROUP B",
+    "description": "Recruitment for gazetted and departmental officer posts in Jammu & Kashmir government services.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "jammu and kashmir",
+    "govt_type": "UNION TERRITORY GOVERNMENT",
+    "conducting_type": "JKPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://jkpsc.nic.in/"
+  },
+  {
+    "id": "JKSSB",
+    "name": "JAMMU AND KASHMIR SERVICES SELECTION BOARD EXAM",
+    "description": "Recruitment for clerical, assistant, junior assistant, and technical posts in Jammu & Kashmir government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "10th",
+      "12th",
+      "graduation"
+    ],
+    "states": "jammu and kashmir",
+    "govt_type": "UNION TERRITORY GOVERNMENT",
+    "conducting_type": "JKSSB",
+    "group": [
+      "C",
+      "Clerical-service",
+      "Technical-service"
+    ],
+    "official_link": "https://jkssb.nic.in/"
+  },
+  {
+    "id": "JK_POLICE_SI",
+    "name": "JAMMU AND KASHMIR POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Civil Police and Armed Police battalions in Jammu & Kashmir.",
+    "min_age": 21,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "jammu and kashmir",
+    "govt_type": "UNION TERRITORY GOVERNMENT",
+    "conducting_type": "JK_POLICE",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://www.jkpolice.gov.in/"
+  },
+  {
+    "id": "JK_POLICE_CONSTABLE",
+    "name": "JAMMU AND KASHMIR POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Civil Police and Armed Police units in Jammu & Kashmir.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "jammu and kashmir",
+    "govt_type": "UNION TERRITORY GOVERNMENT",
+    "conducting_type": "JK_POLICE",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://www.jkpolice.gov.in/"
+  },
+  {
+    "id": "JKTET",
+    "name": "JAMMU AND KASHMIR TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and aided schools in Jammu & Kashmir.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "jammu and kashmir",
+    "govt_type": "UNION TERRITORY GOVERNMENT",
+    "conducting_type": "JKTET",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://www.jkbopee.gov.in/"
+  },
+  {
+    "id": "JK_HEALTH_RECRUITMENT",
+    "name": "JAMMU AND KASHMIR HEALTH SERVICES RECRUITMENT",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and paramedical posts in government hospitals of Jammu & Kashmir.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "jammu and kashmir",
+    "govt_type": "UNION TERRITORY GOVERNMENT",
+    "conducting_type": "JK_HEALTH",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://health.jk.gov.in/"
+  },
+  {
+    "id": "GPSC_GROUP_A",
+    "name": "GOA PUBLIC SERVICE COMMISSION GROUP A",
+    "description": "Recruitment for top administrative posts like Deputy Collector, SDM, Deputy Superintendent of Police, and Departmental Heads in Goa government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "goa",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GPSC",
+    "group": [
+      "A",
+      "Administrative-service"
+    ],
+    "official_link": "https://gpsc.goa.gov.in/"
+  },
+  {
+    "id": "GPSC_GROUP_B",
+    "name": "GOA PUBLIC SERVICE COMMISSION GROUP B",
+    "description": "Recruitment for gazetted and departmental officer posts in Goa government services.",
+    "min_age": 21,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "goa",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://gpsc.goa.gov.in/"
+  },
+  {
+    "id": "GPSC_GROUP_C",
+    "name": "GOA PUBLIC SERVICE COMMISSION GROUP C",
+    "description": "Recruitment for clerical, assistant, LDC, UDC, and office staff posts in Goa government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "goa",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GPSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://gpsc.goa.gov.in/"
+  },
+  {
+    "id": "GOA_POLICE_SI",
+    "name": "GOA POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Civil Police and Armed Police battalions in Goa Police.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "goa",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GOA_POLICE",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://citizen.goapolice.gov.in/"
+  },
+  {
+    "id": "GOA_POLICE_CONSTABLE",
+    "name": "GOA POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Civil Police and Armed Police units in Goa Police.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "goa",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GOA_POLICE",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://citizen.goapolice.gov.in/"
+  },
+  {
+    "id": "GOA_TET",
+    "name": "GOA TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and aided schools in Goa.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "goa",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GOA_TET",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://www.dhe.goa.gov.in/"
+  },
+  {
+    "id": "GOA_HEALTH_RECRUITMENT",
+    "name": "GOA HEALTH SERVICES RECRUITMENT",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and paramedical posts in Goa government hospitals.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "goa",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "GOA_HEALTH",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://www.goa.gov.in/department/directorate-of-health-services/"
+  },
+  {
+    "id": "TPSC_GROUP_A",
+    "name": "TRIPURA PUBLIC SERVICE COMMISSION GROUP A",
+    "description": "Recruitment for top administrative posts like SDM, Deputy Collector, DSP, and Departmental Heads in Tripura government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "tripura",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TPSC",
+    "group": [
+      "A",
+      "Administrative-service"
+    ],
+    "official_link": "https://tpsc.tripura.gov.in/"
+  },
+  {
+    "id": "TPSC_GROUP_B",
+    "name": "TRIPURA PUBLIC SERVICE COMMISSION GROUP B",
+    "description": "Recruitment for gazetted and departmental officer posts in Tripura government services.",
+    "min_age": 21,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "tripura",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TPSC",
+    "group": [
+      "B",
+      "Administrative-service"
+    ],
+    "official_link": "https://tpsc.tripura.gov.in/"
+  },
+  {
+    "id": "TPSC_GROUP_C",
+    "name": "TRIPURA PUBLIC SERVICE COMMISSION GROUP C",
+    "description": "Recruitment for clerical, assistant, LDC, and office staff posts in Tripura government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "tripura",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TPSC",
+    "group": [
+      "C",
+      "Clerical-service"
+    ],
+    "official_link": "https://tpsc.tripura.gov.in/"
+  },
+  {
+    "id": "TRIPURA_POLICE_SI",
+    "name": "TRIPURA POLICE SUB-INSPECTOR EXAM",
+    "description": "Recruitment for Sub-Inspector posts in Civil Police and Armed Police battalions in Tripura.",
+    "min_age": 21,
+    "max_age": {
+      "General": 30,
+      "OBC": 33,
+      "SC": 35,
+      "ST": 35
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "tripura",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TRIPURA_POLICE",
+    "group": [
+      "B",
+      "Police-service"
+    ],
+    "official_link": "https://police.tripura.gov.in/"
+  },
+  {
+    "id": "TRIPURA_POLICE_CONSTABLE",
+    "name": "TRIPURA POLICE CONSTABLE EXAM",
+    "description": "Recruitment for Constable posts in Civil Police and Armed Police units in Tripura.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th",
+      "12th"
+    ],
+    "states": "tripura",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TRIPURA_POLICE",
+    "group": [
+      "C",
+      "Uniformed-service"
+    ],
+    "official_link": "https://police.tripura.gov.in/"
+  },
+  {
+    "id": "T-TET",
+    "name": "TRIPURA TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of teachers in government and aided schools in Tripura.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 45,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "tripura",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "T-TET",
+    "group": [
+      "B",
+      "Teaching-service"
+    ],
+    "official_link": "https://trb.tripura.gov.in/"
+  },
+  {
+    "id": "TRIPURA_HEALTH_RECRUITMENT",
+    "name": "TRIPURA HEALTH SERVICES RECRUITMENT",
+    "description": "Recruitment for staff nurse, pharmacist, lab technician, and paramedical posts in Tripura government hospitals.",
+    "min_age": 18,
+    "max_age": {
+      "General": 40,
+      "OBC": 43,
+      "SC": 45,
+      "ST": 45
+    },
+    "eligibility": [
+      "12th",
+      "graduation"
+    ],
+    "states": "tripura",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "TRIPURA_HEALTH",
+    "group": [
+      "B",
+      "Medical-service"
+    ],
+    "official_link": "https://health.tripura.gov.in/"
+  },
+  {
+    "id": "MPSC_CCE",
+    "name": "MEGHALAYA PUBLIC SERVICE COMMISSION COMBINED COMPETITIVE EXAM",
+    "description": "State civil services exam to recruit officers for administrative, revenue, police, and allied services in Meghalaya government departments.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "meghalaya",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "A",
+    "official_link": "https://mpsc.nic.in/"
+  },
+  {
+    "id": "MPSC_JE",
+    "name": "MEGHALAYA JUNIOR ENGINEER EXAM",
+    "description": "Recruitment exam for Junior Engineers in PWD, water resources, power, and infrastructure departments of Meghalaya.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "meghalaya",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "B",
+    "official_link": "https://mpsc.nic.in/"
+  },
+  {
+    "id": "MEG_POLICE_CONSTABLE",
+    "name": "MEGHALAYA POLICE CONSTABLE EXAM",
+    "description": "Recruitment for constable posts in Meghalaya Police for law enforcement, public safety, and internal security.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th"
+    ],
+    "states": "meghalaya",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MEGHALAYA POLICE",
+    "group": "C",
+    "official_link": "https://megpolice.gov.in/"
+  },
+  {
+    "id": "MEG_PSC_LDC",
+    "name": "MEGHALAYA PSC LOWER DIVISION CLERK EXAM",
+    "description": "Clerical recruitment for data entry, office administration, and documentation roles in Meghalaya government offices.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "meghalaya",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "C",
+    "official_link": "https://mpsc.nic.in/"
+  },
+  {
+    "id": "MEG_TET",
+    "name": "MEGHALAYA TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in government schools of Meghalaya.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "meghalaya",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MEGHALAYA EDUCATION DEPARTMENT",
+    "group": "B",
+    "official_link": "https://megeducation.gov.in/"
+  },
+  {
+    "id": "MPSC_CCE",
+    "name": "MANIPUR PUBLIC SERVICE COMMISSION COMBINED COMPETITIVE EXAM",
+    "description": "State civil services exam to recruit officers for administration, revenue, police, and allied departments of Manipur government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "manipur",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "A",
+    "official_link": "https://mpscmanipur.gov.in/"
+  },
+  {
+    "id": "MPSC_JE",
+    "name": "MANIPUR JUNIOR ENGINEER EXAM",
+    "description": "Recruitment exam for Junior Engineers in PWD, irrigation, power, and infrastructure departments of Manipur.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "manipur",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "B",
+    "official_link": "https://mpscmanipur.gov.in/"
+  },
+  {
+    "id": "MANIPUR_POLICE_CONSTABLE",
+    "name": "MANIPUR POLICE CONSTABLE EXAM",
+    "description": "Recruitment for constable posts in Manipur Police for law enforcement, public safety, and internal security duties.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th"
+    ],
+    "states": "manipur",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MANIPUR POLICE",
+    "group": "C",
+    "official_link": "https://manipurpolice.gov.in/"
+  },
+  {
+    "id": "MANIPUR_LDC",
+    "name": "MANIPUR LOWER DIVISION CLERK EXAM",
+    "description": "Clerical recruitment exam for office administration, record keeping, and data management in Manipur government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "manipur",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "C",
+    "official_link": "https://mpscmanipur.gov.in/"
+  },
+  {
+    "id": "MANIPUR_TET",
+    "name": "MANIPUR TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in government schools of Manipur.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "manipur",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MANIPUR EDUCATION DEPARTMENT",
+    "group": "B",
+    "official_link": "https://manipureducation.gov.in/"
+  },
+  {
+    "id": "NPSC_NCS",
+    "name": "NAGALAND CIVIL SERVICES EXAM",
+    "description": "State civil services exam to recruit administrative officers for Nagaland government departments including administration, revenue, and allied services.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "nagaland",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "NPSC",
+    "group": "A",
+    "official_link": "https://npsc.nagaland.gov.in/"
+  },
+  {
+    "id": "NPSC_JE",
+    "name": "NAGALAND JUNIOR ENGINEER EXAM",
+    "description": "Recruitment exam for Junior Engineers in public works, power, irrigation, and infrastructure departments of Nagaland.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "nagaland",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "NPSC",
+    "group": "B",
+    "official_link": "https://npsc.nagaland.gov.in/"
+  },
+  {
+    "id": "NAGALAND_POLICE_CONSTABLE",
+    "name": "NAGALAND POLICE CONSTABLE EXAM",
+    "description": "Recruitment exam for constables in Nagaland Police for law enforcement, border security, and public safety duties.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th"
+    ],
+    "states": "nagaland",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "NAGALAND POLICE",
+    "group": "C",
+    "official_link": "https://police.nagaland.gov.in/"
+  },
+  {
+    "id": "NAGALAND_LDC",
+    "name": "NAGALAND LOWER DIVISION CLERK EXAM",
+    "description": "Clerical recruitment exam for office administration, record keeping, and data handling in Nagaland government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "nagaland",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "NPSC",
+    "group": "C",
+    "official_link": "https://npsc.nagaland.gov.in/"
+  },
+  {
+    "id": "NAGALAND_TET",
+    "name": "NAGALAND TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility test for recruitment of teachers in government primary and upper primary schools of Nagaland.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "nagaland",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "NAGALAND EDUCATION DEPARTMENT",
+    "group": "B",
+    "official_link": "https://education.nagaland.gov.in/"
+  },
+  {
+    "id": "MPSC_MCS",
+    "name": "MIZORAM CIVIL SERVICES EXAM",
+    "description": "State civil services exam to recruit officers for administration, revenue, and allied departments of Mizoram government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "mizoram",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "A",
+    "official_link": "https://mpsc.mizoram.gov.in/"
+  },
+  {
+    "id": "MPSC_JE",
+    "name": "MIZORAM JUNIOR ENGINEER EXAM",
+    "description": "Recruitment exam for Junior Engineers in public works, power, irrigation, and infrastructure departments of Mizoram.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "mizoram",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "B",
+    "official_link": "https://mpsc.mizoram.gov.in/"
+  },
+  {
+    "id": "MIZORAM_POLICE_CONSTABLE",
+    "name": "MIZORAM POLICE CONSTABLE EXAM",
+    "description": "Recruitment exam for constables in Mizoram Police for law enforcement, internal security, and public safety duties.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th"
+    ],
+    "states": "mizoram",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MIZORAM POLICE",
+    "group": "C",
+    "official_link": "https://police.mizoram.gov.in/"
+  },
+  {
+    "id": "MIZORAM_LDC",
+    "name": "MIZORAM LOWER DIVISION CLERK EXAM",
+    "description": "Clerical recruitment exam for office administration, record keeping, and data handling in Mizoram government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "mizoram",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MPSC",
+    "group": "C",
+    "official_link": "https://mpsc.mizoram.gov.in/"
+  },
+  {
+    "id": "MIZORAM_TET",
+    "name": "MIZORAM TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility exam for recruitment of primary and upper primary teachers in government schools of Mizoram.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "mizoram",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "MIZORAM EDUCATION DEPARTMENT",
+    "group": "B",
+    "official_link": "https://education.mizoram.gov.in/"
+  },
+  {
+    "id": "APPSC_APCS",
+    "name": "ARUNACHAL PRADESH CIVIL SERVICES EXAM",
+    "description": "State civil services exam to recruit officers for administration, revenue, police, and allied departments of Arunachal Pradesh government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "arunachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "APPSC",
+    "group": "A",
+    "official_link": "https://appsc.gov.in/"
+  },
+  {
+    "id": "APPSC_JE",
+    "name": "ARUNACHAL PRADESH JUNIOR ENGINEER EXAM",
+    "description": "Recruitment exam for Junior Engineers in public works, power, irrigation, and infrastructure departments of Arunachal Pradesh.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "arunachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "APPSC",
+    "group": "B",
+    "official_link": "https://appsc.gov.in/"
+  },
+  {
+    "id": "ARUNACHAL_POLICE_CONSTABLE",
+    "name": "ARUNACHAL PRADESH POLICE CONSTABLE EXAM",
+    "description": "Recruitment exam for constables in Arunachal Pradesh Police for law enforcement, border security, and internal safety duties.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th"
+    ],
+    "states": "arunachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "ARUNACHAL PRADESH POLICE",
+    "group": "C",
+    "official_link": "https://arunpol.nic.in/"
+  },
+  {
+    "id": "ARUNACHAL_LDC",
+    "name": "ARUNACHAL PRADESH LOWER DIVISION CLERK EXAM",
+    "description": "Clerical recruitment exam for office administration, record keeping, and data management in Arunachal Pradesh government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "arunachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "APPSC",
+    "group": "C",
+    "official_link": "https://appsc.gov.in/"
+  },
+  {
+    "id": "ARUNACHAL_TET",
+    "name": "ARUNACHAL PRADESH TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility test for recruitment of primary and upper primary teachers in government schools of Arunachal Pradesh.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "arunachal pradesh",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "ARUNACHAL PRADESH EDUCATION DEPARTMENT",
+    "group": "B",
+    "official_link": "https://education.arunachal.gov.in/"
+  },
+  {
+    "id": "SPSC_SCS",
+    "name": "SIKKIM CIVIL SERVICES EXAM",
+    "description": "State civil services exam to recruit officers for administration, revenue, police, and allied departments of Sikkim government.",
+    "min_age": 21,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "sikkim",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SPSC",
+    "group": "A",
+    "official_link": "https://spsc.sikkim.gov.in/"
+  },
+  {
+    "id": "SPSC_JE",
+    "name": "SIKKIM JUNIOR ENGINEER EXAM",
+    "description": "Recruitment exam for Junior Engineers in public works, power, irrigation, and infrastructure departments of Sikkim.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "sikkim",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SPSC",
+    "group": "B",
+    "official_link": "https://spsc.sikkim.gov.in/"
+  },
+  {
+    "id": "SIKKIM_POLICE_CONSTABLE",
+    "name": "SIKKIM POLICE CONSTABLE EXAM",
+    "description": "Recruitment exam for constables in Sikkim Police for law enforcement, border security, and internal safety duties.",
+    "min_age": 18,
+    "max_age": {
+      "General": 28,
+      "OBC": 31,
+      "SC": 33,
+      "ST": 33
+    },
+    "eligibility": [
+      "10th"
+    ],
+    "states": "sikkim",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SIKKIM POLICE",
+    "group": "C",
+    "official_link": "https://police.sikkim.gov.in/"
+  },
+  {
+    "id": "SIKKIM_LDC",
+    "name": "SIKKIM LOWER DIVISION CLERK EXAM",
+    "description": "Clerical recruitment exam for office administration, record keeping, and data handling in Sikkim government departments.",
+    "min_age": 18,
+    "max_age": {
+      "General": 32,
+      "OBC": 35,
+      "SC": 37,
+      "ST": 37
+    },
+    "eligibility": [
+      "12th"
+    ],
+    "states": "sikkim",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SPSC",
+    "group": "C",
+    "official_link": "https://spsc.sikkim.gov.in/"
+  },
+  {
+    "id": "SIKKIM_TET",
+    "name": "SIKKIM TEACHER ELIGIBILITY TEST",
+    "description": "Eligibility test for recruitment of primary and upper primary teachers in government schools of Sikkim.",
+    "min_age": 18,
+    "max_age": {
+      "General": 35,
+      "OBC": 38,
+      "SC": 40,
+      "ST": 40
+    },
+    "eligibility": [
+      "graduation"
+    ],
+    "states": "sikkim",
+    "govt_type": "STATE GOVERNMENT",
+    "conducting_type": "SIKKIM EDUCATION DEPARTMENT",
+    "group": "B",
+    "official_link": "https://sikkimhrdd.org/"
+  }
+]
