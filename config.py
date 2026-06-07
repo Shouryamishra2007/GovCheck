@@ -16,6 +16,10 @@ class Config:
     TESTING = False
     
     # API Keys
+    # Groq API - FREE
+    GROQ_API_KEY = os.getenv('GROQ_API_KEY', '')
+    
+    # Gemini API - PAID
     GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
     
     # Database
