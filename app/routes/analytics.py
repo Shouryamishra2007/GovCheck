@@ -1,5 +1,6 @@
 # ═══════════════════════════════════════════════════════════════
 # FEATURE 8: Analytics Dashboard
+# FEATURE 11: Education-wise eligibility analysis
 # ═══════════════════════════════════════════════════════════════
 
 from flask import Blueprint, jsonify, current_app
@@ -17,12 +18,11 @@ def get_analytics_dashboard():
     - Total opportunities
     - Central vs State split
     - Top opportunities
-    - Upcoming deadlines
     - State-wise distribution
     """
     try:
         exam_service = current_app.config['EXAM_SERVICE']
-        exams = exam_service.get_all_exams()
+        exams = exam_service.exams  # Access the exams list directly
         
         if not exams:
             return jsonify({'success': False}), 400
@@ -44,6 +44,9 @@ def get_analytics_dashboard():
             if isinstance(states, list):
                 for s in states:
                     state_dist[s] = state_dist.get(s, 0) + 1
+            elif isinstance(states, str):
+                if states.lower() != 'all':
+                    state_dist[states] = state_dist.get(states, 0) + 1
         
         # Group by conducting body
         body_dist = {}
@@ -76,14 +79,19 @@ def education_analytics():
     """FEATURE 11: Education-wise eligibility analysis."""
     try:
         exam_service = current_app.config['EXAM_SERVICE']
-        exams = exam_service.get_all_exams()
+        exams = exam_service.exams
         
         education_reqs = {}
         for exam in exams:
-            edu = exam.get('education_required', 'Unknown')
-            if edu not in education_reqs:
-                education_reqs[edu] = []
-            education_reqs[edu].append(exam['name'])
+            eligibilities = exam.get('eligibility', [])
+            if not eligibilities:
+                eligibilities = ['All']
+            
+            for edu in eligibilities:
+                edu_key = str(edu).strip()
+                if edu_key not in education_reqs:
+                    education_reqs[edu_key] = []
+                education_reqs[edu_key].append(exam.get('name', 'Unknown'))
         
         return jsonify({
             'success': True,
@@ -94,4 +102,5 @@ def education_analytics():
         })
 
     except Exception as e:
+        logger.error(f"Education analytics error: {str(e)}")
         return jsonify({'success': False, 'error': str(e)}), 400

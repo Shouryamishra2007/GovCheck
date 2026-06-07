@@ -1,216 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>GovCheck — Find Your Government Opportunity</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/static/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GovCheck — Your Opportunity Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/style.css" />
 </head>
 <body>
 
-<!-- ── NAV ── -->
+<!-- ══════════════════════════════════════════════════════
+     NAVIGATION
+     ══════════════════════════════════════════════════════ -->
 <nav class="navbar" id="navbar">
-  <a class="nav-brand" href="#">Gov<span>Check</span></a>
-  <div class="navbar-nav">
-    <a href="#features">Features</a>
-    <a href="#find">Find Exams</a>
-    <a href="#ai-tool">AI Tool</a>
-  </div>
+    <a class="nav-brand" href="#">Gov<span>Check</span></a>
+    <div class="navbar-nav">
+        <a href="#discover">Discover</a>
+        <a href="#roadmap">Your Path</a>
+        <a href="#community">Community</a>
+        <a href="#ai-tool">AI Guide</a>
+    </div>
 </nav>
 
-<!-- ── HERO ── -->
+<!-- ══════════════════════════════════════════════════════
+     HERO SECTION - EMOTIONAL HOOK
+     ══════════════════════════════════════════════════════ -->
 <section class="hero" id="home">
-  <div class="hero-bg-text">215+</div>
-  <div class="hero-content">
-    <p class="hero-eyebrow">India's Smartest Exam Finder</p>
-    <h1 class="hero-title">Your Government<br /><em>Opportunity</em> Awaits</h1>
-    <p class="hero-sub">Filter 215+ central & state exams by age, education, category and state — with an AI match score for every result.</p>
-    <div class="hero-cta">
-      <a href="#find" class="btn-primary">Find My Exams</a>
-      <a href="#ai-tool" class="btn-ghost">AI Summarizer →</a>
+    <div class="hero-overlay"></div>
+    <div class="hero-bg-text">∞</div>
+    <div class="hero-content">
+        <p class="hero-eyebrow">✦ Your Opportunity Companion</p>
+        <h1 class="hero-title">Every Opportunity Can Change<br />a <em>Life</em></h1>
+        <p class="hero-sub">Don't let yours pass by. GovCheck helps you discover exams, scholarships, internships, and fellowships tailored to your journey—before others even know they exist.</p>
+        
+        <div class="hero-cta">
+            <a href="#discover" class="btn-primary btn-lg">
+                <span>Start Your Journey</span>
+                <span class="arrow">→</span>
+            </a>
+            <a href="#community" class="btn-secondary">See What Others Found</a>
+        </div>
+        
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <span class="hero-stat-number">215+</span>
+                <span class="hero-stat-label">Opportunities</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-number">50K+</span>
+                <span class="hero-stat-label">Aspirants Found Their Path</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-number">28</span>
+                <span class="hero-stat-label">States Covered</span>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="hero-tags">
-    <span>UPSC</span><span>SSC</span><span>Railway</span><span>Banking</span><span>Defence</span><span>State PSC</span>
-  </div>
 </section>
 
-<!-- ── STATS ── -->
-<section class="stats-section" id="features">
-  <div class="stats-grid">
-    <div class="stat-card">
-      <div class="stat-number" data-value="215">0+</div>
-      <div class="stat-label">Government Exams</div>
+<!-- ══════════════════════════════════════════════════════
+     MOTIVATIONAL BANNER
+     ══════════════════════════════════════════════════════ -->
+<section class="motivation-banner">
+    <div class="motivation-content">
+        <span class="motivation-icon">💡</span>
+        <p class="motivation-text">Every successful officer, researcher, and engineer once stood where you are now. Your opportunity is waiting.</p>
     </div>
-    <div class="stat-card">
-      <div class="stat-number" data-value="28">0+</div>
-      <div class="stat-label">States Covered</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number" data-value="12">0+</div>
-      <div class="stat-label">Conducting Bodies</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number" data-value="4">0</div>
-      <div class="stat-label">Category Profiles</div>
-    </div>
-  </div>
 </section>
 
-<!-- ── SEARCH ── -->
+<!-- ══════════════════════════════════════════════════════
+     OPPORTUNITY DISCOVERY FORM
+     ══════════════════════════════════════════════════════ -->
+<section class="form-section" id="discover">
+    <div class="form-container">
+        <div class="form-header">
+            <p class="section-eyebrow">🎯 Unlock Opportunities</p>
+            <h2>Tell Us Your Story</h2>
+            <p class="form-sub">We'll discover opportunities that align with your dreams and abilities.</p>
+        </div>
+
+        <form id="eligibility-form" class="eligibility-form">
+            <!-- Profile Section -->
+            <div class="form-section-group">
+                <h3 class="form-section-title">Your Profile</h3>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="age">Your Age</label>
+                        <input type="number" id="age" name="age" placeholder="e.g. 23" min="10" max="60" required />
+                        <span class="form-hint">Used to check age eligibility</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Education Level</label>
+                        <select id="status" name="status" required>
+                            <option value="">Select your level</option>
+                            <option value="10th">10th Pass</option>
+                            <option value="12th">12th Pass</option>
+                            <option value="graduation">Undergraduate (Pursuing/Completed)</option>
+                            <option value="post-graduation">Postgraduate</option>
+                        </select>
+                        <span class="form-hint">Helps us find matching opportunities</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="category">Category</label>
+                        <select id="category" name="category" required>
+                            <option value="">Select category</option>
+                            <option value="general">General</option>
+                            <option value="obc">OBC</option>
+                            <option value="sc">SC</option>
+                            <option value="st">ST</option>
+                        </select>
+                        <span class="form-hint">For category-specific benefits</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">Home State</label>
+                        <select id="state" name="state" required>
+                            <option value="">Select state</option>
+                            <option value="andhra_pradesh">Andhra Pradesh</option>
+                            <option value="arunachal_pradesh">Arunachal Pradesh</option>
+                            <option value="assam">Assam</option>
+                            <option value="bihar">Bihar</option>
+                            <option value="chhattisgarh">Chhattisgarh</option>
+                            <option value="goa">Goa</option>
+                            <option value="gujarat">Gujarat</option>
+                            <option value="haryana">Haryana</option>
+                            <option value="himachal_pradesh">Himachal Pradesh</option>
+                            <option value="jharkhand">Jharkhand</option>
+                            <option value="karnataka">Karnataka</option>
+                            <option value="kerala">Kerala</option>
+                            <option value="madhya_pradesh">Madhya Pradesh</option>
+                            <option value="maharashtra">Maharashtra</option>
+                            <option value="manipur">Manipur</option>
+                            <option value="meghalaya">Meghalaya</option>
+                            <option value="mizoram">Mizoram</option>
+                            <option value="nagaland">Nagaland</option>
+                            <option value="odisha">Odisha</option>
+                            <option value="punjab">Punjab</option>
+                            <option value="rajasthan">Rajasthan</option>
+                            <option value="sikkim">Sikkim</option>
+                            <option value="tamil_nadu">Tamil Nadu</option>
+                            <option value="telangana">Telangana</option>
+                            <option value="tripura">Tripura</option>
+                            <option value="uttar_pradesh">Uttar Pradesh</option>
+                            <option value="uttarakhand">Uttarakhand</option>
+                            <option value="west_bengal">West Bengal</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="jammu_kashmir">Jammu & Kashmir</option>
+                            <option value="ladakh">Ladakh</option>
+                        </select>
+                        <span class="form-hint">For state-specific opportunities</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="error-msg" class="error-msg"></div>
+            
+            <button type="submit" class="btn-primary full-width btn-xl" id="find-btn">
+                <span>Unlock My Opportunities</span>
+            </button>
+
+            <p class="form-footer-text">💙 We never share your data. Your privacy is our priority.</p>
+        </form>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     SEARCH SECTION
+     ══════════════════════════════════════════════════════ -->
 <section class="search-section">
-  <div class="search-wrap">
-    <input id="global-search" type="text" placeholder="Search exams — try UPSC, Railway, Banking…" autocomplete="off" />
-    <button id="search-btn">Search</button>
-  </div>
-  <div id="search-results" class="search-results hidden"></div>
-</section>
-
-<!-- ── ELIGIBILITY FORM ── -->
-<section class="form-section" id="find">
-  <div class="form-container">
-    <div class="form-header">
-      <p class="section-eyebrow">Smart Filter</p>
-      <h2>Check Your Eligibility</h2>
-      <p class="form-sub">Fill in your details and we'll match you with every exam you can apply for — ranked by match score.</p>
+    <div class="search-wrap">
+        <input id="global-search" type="text" placeholder="Explore opportunities... UPSC, Railway, Scholarships, Internships" autocomplete="off" />
+        <button id="search-btn">Search</button>
     </div>
-
-    <form id="eligibility-form" class="eligibility-form">
-      <div class="form-row">
-        <div class="form-group">
-          <label for="age">Your Age</label>
-          <input type="number" id="age" name="age" placeholder="e.g. 23" min="10" max="60" required />
-        </div>
-        <div class="form-group">
-          <label for="status">Education</label>
-          <select id="status" name="status" required>
-            <option value="">Select level</option>
-            <option value="10th">10th Pass</option>
-            <option value="12th">12th Pass</option>
-            <option value="graduation">Graduate</option>
-            <option value="post-graduation">Post Graduate</option>
-          </select>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="category">Category</label>
-          <select id="category" name="category" required>
-            <option value="">Select category</option>
-            <option value="general">General</option>
-            <option value="obc">OBC</option>
-            <option value="sc">SC</option>
-            <option value="st">ST</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="state">Home State</label>
-          <select id="state" name="state" required>
-            <option value="">Select state</option>
-            <option value="andhra_pradesh">Andhra Pradesh</option>
-            <option value="arunachal_pradesh">Arunachal Pradesh</option>
-            <option value="assam">Assam</option>
-            <option value="bihar">Bihar</option>
-            <option value="chhattisgarh">Chhattisgarh</option>
-            <option value="goa">Goa</option>
-            <option value="gujarat">Gujarat</option>
-            <option value="haryana">Haryana</option>
-            <option value="himachal_pradesh">Himachal Pradesh</option>
-            <option value="jharkhand">Jharkhand</option>
-            <option value="karnataka">Karnataka</option>
-            <option value="kerala">Kerala</option>
-            <option value="madhya_pradesh">Madhya Pradesh</option>
-            <option value="maharashtra">Maharashtra</option>
-            <option value="manipur">Manipur</option>
-            <option value="meghalaya">Meghalaya</option>
-            <option value="mizoram">Mizoram</option>
-            <option value="nagaland">Nagaland</option>
-            <option value="odisha">Odisha</option>
-            <option value="punjab">Punjab</option>
-            <option value="rajasthan">Rajasthan</option>
-            <option value="sikkim">Sikkim</option>
-            <option value="tamil_nadu">Tamil Nadu</option>
-            <option value="telangana">Telangana</option>
-            <option value="tripura">Tripura</option>
-            <option value="uttar_pradesh">Uttar Pradesh</option>
-            <option value="uttarakhand">Uttarakhand</option>
-            <option value="west_bengal">West Bengal</option>
-            <option value="delhi">Delhi</option>
-            <option value="jammu_kashmir">Jammu & Kashmir</option>
-            <option value="ladakh">Ladakh</option>
-          </select>
-        </div>
-      </div>
-
-      <div id="error-msg" class="error-msg"></div>
-      <button type="submit" class="btn-primary full-width" id="find-btn">
-        <span>Discover Opportunities</span>
-      </button>
-    </form>
-  </div>
+    <div id="search-results" class="search-results hidden"></div>
 </section>
 
-<!-- ── RESULTS ── -->
+<!-- ══════════════════════════════════════════════════════
+     RESULTS SECTION - UNLOCKED OPPORTUNITIES
+     ══════════════════════════════════════════════════════ -->
 <section class="results-section hidden" id="results-section">
-  <div class="results-header">
-    <div>
-      <p class="section-eyebrow">Results</p>
-      <h2 id="result-count">0 exams found</h2>
+    <div class="results-hero">
+        <div id="personalized-greeting" class="personalized-greeting">
+            <span class="greeting-icon">🎉</span>
+            <h2 id="greeting-text"></h2>
+            <p id="greeting-subtext"></p>
+        </div>
     </div>
-    <div class="filter-tabs">
-      <button class="filter-tab active" data-filter="all">All</button>
-      <button class="filter-tab" data-filter="central">Central</button>
-      <button class="filter-tab" data-filter="state">State</button>
-    </div>
-  </div>
 
-  <div id="no-results" class="no-results hidden">
-    <div class="no-results-icon">🔍</div>
-    <h3>No matching exams found</h3>
-    <p>Try adjusting your filters or check back as we update our database regularly.</p>
-  </div>
+    <div class="results-header">
+        <div>
+            <p class="section-eyebrow">🔓 Your Unlocked Opportunities</p>
+            <h2 id="result-count">Loading...</h2>
+        </div>
+        <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">All</button>
+            <button class="filter-tab" data-filter="central">Central</button>
+            <button class="filter-tab" data-filter="state">State</button>
+        </div>
+    </div>
 
-  <div class="results-columns">
-    <div id="central-wrapper" class="results-column">
-      <h3 class="column-heading">🏛 Central Government</h3>
-      <div id="central-list"></div>
+    <!-- Opportunity Highlights -->
+    <div class="opportunity-highlights">
+        <div class="highlight-card">
+            <span class="highlight-icon">⚡</span>
+            <div>
+                <div class="highlight-label">Perfect Matches</div>
+                <div id="perfect-matches" class="highlight-count">-</div>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <span class="highlight-icon">⏰</span>
+            <div>
+                <div class="highlight-label">Closing Soon</div>
+                <div id="closing-soon" class="highlight-count">-</div>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <span class="highlight-icon">🆕</span>
+            <div>
+                <div class="highlight-label">Recently Added</div>
+                <div id="recently-added" class="highlight-count">-</div>
+            </div>
+        </div>
     </div>
-    <div id="state-wrapper" class="results-column">
-      <h3 class="column-heading">🗺 State Government</h3>
-      <div id="state-list"></div>
+
+    <div id="no-results" class="no-results hidden">
+        <div class="no-results-icon">🌟</div>
+        <h3>Hmm, No Direct Matches Found</h3>
+        <p>But don't worry! Expand your search or check back tomorrow—new opportunities are added regularly.</p>
+        <a href="#home" class="btn-primary">Try Different Filters</a>
     </div>
-  </div>
+
+    <div class="results-columns">
+        <div id="central-wrapper" class="results-column">
+            <h3 class="column-heading">🏛️ Central Government</h3>
+            <p class="column-subtitle">Pan-India opportunities</p>
+            <div id="central-list"></div>
+        </div>
+        <div id="state-wrapper" class="results-column">
+            <h3 class="column-heading">🗺️ State Government</h3>
+            <p class="column-subtitle">Local to your state</p>
+            <div id="state-list"></div>
+        </div>
+    </div>
 </section>
 
-<!-- ── AI SUMMARIZER ── -->
+<!-- ══════════════════════════════════════════════════════
+     WHAT YOU MIGHT BE MISSING
+     ══════════════════════════════════════════════════════ -->
+<section class="opportunity-radar hidden" id="opportunity-radar">
+    <div class="radar-container">
+        <p class="section-eyebrow">🎁 What You Might Be Missing</p>
+        <h2>Hidden Opportunities You Qualify For</h2>
+        <p class="radar-subtitle">These opportunities are less known but could be perfect for you.</p>
+        
+        <div id="hidden-opportunities" class="hidden-opportunities-grid">
+            <!-- Populated dynamically -->
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     COMMUNITY INSIGHTS
+     ══════════════════════════════════════════════════════ -->
+<section class="community-section" id="community">
+    <div class="community-container">
+        <p class="section-eyebrow">👥 You're Not Alone</p>
+        <h2>What Others Like You Are Exploring</h2>
+
+        <div class="community-grid">
+            <div class="community-card">
+                <span class="community-icon">🎓</span>
+                <h3>Popular This Month</h3>
+                <div id="trending-opportunities" class="community-list">
+                    <div class="loading-skeleton"></div>
+                </div>
+            </div>
+
+            <div class="community-card">
+                <span class="community-icon">👨‍💻</span>
+                <h3>Trending Among Engineers</h3>
+                <div class="community-list">
+                    <div class="community-item">Gate Exam</div>
+                    <div class="community-item">ESE Recruitment</div>
+                    <div class="community-item">ISRO Internship</div>
+                </div>
+            </div>
+
+            <div class="community-card">
+                <span class="community-icon">🔐</span>
+                <h3>Trending Among Cybersecurity Aspirants</h3>
+                <div class="community-list">
+                    <div class="community-item">SSC CGL (IT)</div>
+                    <div class="community-item">NDA</div>
+                    <div class="community-item">DRDO Internship</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     CAREER ROADMAPS
+     ══════════════════════════════════════════════════════ -->
+<section class="roadmap-section" id="roadmap">
+    <div class="roadmap-container">
+        <p class="section-eyebrow">🗺️ Your Future Starts Here</p>
+        <h2>Career Pathways: From Today To Your Dream Role</h2>
+        <p class="roadmap-subtitle">See where your opportunities lead and plan your journey.</p>
+
+        <div class="roadmaps-grid">
+            <!-- Roadmap 1: Engineering -->
+            <div class="roadmap-card">
+                <div class="roadmap-path">
+                    <div class="roadmap-step">
+                        <div class="step-icon">🎓</div>
+                        <div class="step-content">
+                            <p class="step-label">Current</p>
+                            <p class="step-title">B.Tech Student</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">📝</div>
+                        <div class="step-content">
+                            <p class="step-label">Stage 1</p>
+                            <p class="step-title">GATE / ESE Exam</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">🏭</div>
+                        <div class="step-content">
+                            <p class="step-label">Stage 2</p>
+                            <p class="step-title">PSU / Government Job</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">⭐</div>
+                        <div class="step-content">
+                            <p class="step-label">Goal</p>
+                            <p class="step-title">Senior Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="roadmap-link">Explore This Path →</a>
+            </div>
+
+            <!-- Roadmap 2: Civil Services -->
+            <div class="roadmap-card">
+                <div class="roadmap-path">
+                    <div class="roadmap-step">
+                        <div class="step-icon">📚</div>
+                        <div class="step-content">
+                            <p class="step-label">Current</p>
+                            <p class="step-title">Undergraduate</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">📖</div>
+                        <div class="step-content">
+                            <p class="step-label">Stage 1</p>
+                            <p class="step-title">UPSC Preparation</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">🏛️</div>
+                        <div class="step-content">
+                            <p class="step-label">Stage 2</p>
+                            <p class="step-title">IAS / IFS Selection</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">👔</div>
+                        <div class="step-content">
+                            <p class="step-label">Goal</p>
+                            <p class="step-title">Officer / Administrator</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="roadmap-link">Explore This Path →</a>
+            </div>
+
+            <!-- Roadmap 3: Research -->
+            <div class="roadmap-card">
+                <div class="roadmap-path">
+                    <div class="roadmap-step">
+                        <div class="step-icon">🔬</div>
+                        <div class="step-content">
+                            <p class="step-label">Current</p>
+                            <p class="step-title">Science Student</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">🏆</div>
+                        <div class="step-content">
+                            <p class="step-label">Stage 1</p>
+                            <p class="step-title">JRF / CSIR Fellowship</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">📊</div>
+                        <div class="step-content">
+                            <p class="step-label">Stage 2</p>
+                            <p class="step-title">M.Tech / PhD</p>
+                        </div>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="roadmap-step">
+                        <div class="step-icon">🎓</div>
+                        <div class="step-content">
+                            <p class="step-label">Goal</p>
+                            <p class="step-title">Researcher / Scientist</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="roadmap-link">Explore This Path →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     AI GUIDE SECTION
+     ══════════════════════════════════════════════════════ -->
 <section class="ai-section" id="ai-tool">
-  <div class="ai-container">
-    <div class="ai-header">
-      <span class="ai-badge">✦ AI Powered</span>
-      <h2>Notification Summarizer</h2>
-      <p>Paste any government exam notification — get a clean breakdown of eligibility, dates, and process in seconds.</p>
-    </div>
+    <div class="ai-container">
+        <div class="ai-header">
+            <span class="ai-badge">✦ AI-Powered Guide (Groq)</span>
+            <h2>Notification Analyzer</h2>
+            <p>Paste a government notification and let AI break it down for you in seconds.</p>
+        </div>
 
-    <div class="ai-body">
-      <textarea id="ai-input" placeholder="Paste the full government notification text here…" rows="8"></textarea>
-      <button id="ai-btn" class="btn-primary">Summarize with AI</button>
-      <div id="ai-result" class="ai-result hidden"></div>
-      <p class="ai-note">⚙ Requires <code>GEMINI_API_KEY</code> in your environment. <a href="https://aistudio.google.com/app/apikey" target="_blank">Get one free →</a></p>
+        <div class="ai-body">
+            <div class="ai-intro">
+                <span class="ai-icon">🤖</span>
+                <p>Let our AI guide read through confusing notifications and highlight what matters to <strong>you</strong>.</p>
+            </div>
+
+            <textarea id="ai-input" placeholder="Paste the full government notification here... We'll analyze it and show you eligibility, dates, and what's needed." rows="6"></textarea>
+            <button id="ai-btn" class="btn-primary">Analyze With AI</button>
+            
+            <div id="ai-result" class="ai-result hidden"></div>
+            
+            <p class="ai-note">⚙️ Requires <code>GROQ_API_KEY</code>. <a href="https://console.groq.com/keys" target="_blank">Get free API key →</a></p>
+        </div>
     </div>
-  </div>
 </section>
 
-<!-- ── FOOTER ── -->
+<!-- ══════════════════════════════════════════════════════
+     MOTIVATIONAL SECTION
+     ══════════════════════════════════════════════════════ -->
+<section class="motivation-section">
+    <div class="motivation-grid">
+        <div class="motivation-item">
+            <span class="motivation-emoji">💪</span>
+            <p class="motivation-quote">"You are closer than you think."</p>
+            <p class="motivation-author">— Every Successful Candidate</p>
+        </div>
+        <div class="motivation-item">
+            <span class="motivation-emoji">⏰</span>
+            <p class="motivation-quote">"One application can change everything."</p>
+            <p class="motivation-author">— Your Future Self</p>
+        </div>
+        <div class="motivation-item">
+            <span class="motivation-emoji">🎯</span>
+            <p class="motivation-quote">"Don't let missed deadlines become missed dreams."</p>
+            <p class="motivation-author">— GovCheck</p>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════════════════ -->
 <footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-brand">Gov<span>Check</span></div>
-    <p>Built for India's job-seekers. Data sourced from official government portals.</p>
-    <p class="footer-sub">IIT Patna Capstone Project · 2026</p>
-  </div>
+    <div class="footer-inner">
+        <div class="footer-brand">Gov<span>Check</span></div>
+        <p>Your Opportunity Companion for Every Dream</p>
+        <p class="footer-sub">Built with ❤️ for India's Aspirants · Powered by Groq AI · 2026</p>
+    </div>
 </footer>
 
 <script src="/static/script.js"></script>
+<script src="/static/emotional-design.js"></script>
 </body>
 </html>

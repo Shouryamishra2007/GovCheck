@@ -1,5 +1,6 @@
 # ═══════════════════════════════════════════════════════════════
 # FEATURE 5: Cybersecurity-focused Source Verification
+# Purpose: Verify government notification sources for cybersecurity
 # ═══════════════════════════════════════════════════════════════
 
 import logging
@@ -74,7 +75,6 @@ class SourceVerifier:
         suspicious_patterns = [
             '.tk', '.ml', '.ga',  # Free domains
             'bit.ly', 'tinyurl',   # URL shorteners
-            'job', 'recruitment',  # Generic job keywords
         ]
         
         # Check for suspicious TLDs

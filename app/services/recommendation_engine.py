@@ -140,7 +140,7 @@ class CareerRoadmapGenerator:
         elif education == 'graduation':
             template_key = 'graduation_nontech'
         else:
-            return {'error': 'Roadmap not available for this profile'}
+            return {'success': False, 'error': 'Roadmap not available for this profile'}
         
         template = self.ROADMAP_TEMPLATES.get(template_key, {})
         

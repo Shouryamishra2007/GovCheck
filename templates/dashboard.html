@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard - GovCheck</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+    <a class="nav-brand" href="/">Gov<span>Check</span></a>
+    <div class="navbar-nav">
+        <a href="/">Home</a>
+        <a href="/dashboard" class="active">Analytics</a>
+        <a href="/roadmap">Career Roadmap</a>
+    </div>
+</nav>
+
+<section class="hero" style="min-height: 40vh;">
+    <div class="hero-content" style="max-width: 1000px;">
+        <p class="hero-eyebrow">Data Intelligence</p>
+        <h1 class="hero-title">Analytics Dashboard</h1>
+        <p class="hero-sub">Explore government opportunity trends, state-wise distribution, and competitive insights.</p>
+    </div>
+</section>
+
+<section style="padding: 60px 48px; background: var(--bg);">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        
+        <!-- KPI Cards -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-bottom: 40px;">
+            <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px;">
+                <div style="font-size: 0.75rem; color: var(--accent); font-weight: 700; margin-bottom: 8px;">TOTAL OPPORTUNITIES</div>
+                <div id="metric-total" style="font-size: 2.5rem; font-weight: 700; color: var(--accent-2);">-</div>
+            </div>
+            
+            <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px;">
+                <div style="font-size: 0.75rem; color: var(--accent); font-weight: 700; margin-bottom: 8px;">CENTRAL EXAMS</div>
+                <div id="metric-central" style="font-size: 2.5rem; font-weight: 700; color: #3a7fe8;">-</div>
+            </div>
+            
+            <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px;">
+                <div style="font-size: 0.75rem; color: var(--accent); font-weight: 700; margin-bottom: 8px;">STATE EXAMS</div>
+                <div id="metric-state" style="font-size: 2.5rem; font-weight: 700; color: #3dba6f;">-</div>
+            </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 24px;">
+            
+            <!-- Conducting Body Distribution -->
+            <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px;">
+                <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 16px;">Exams by Conducting Body</h3>
+                <canvas id="bodyChart"></canvas>
+            </div>
+
+            <!-- State Distribution -->
+            <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px;">
+                <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 16px;">Top States</h3>
+                <canvas id="stateChart"></canvas>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section style="padding: 60px 48px; background: var(--surface);">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <h2 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 24px;">Most Viewed Opportunities</h2>
+        <div id="topOpportunitiesList"></div>
+    </div>
+</section>
+
+<script>
+async function loadAnalytics() {
+    try {
+        const res = await fetch('/api/analytics/dashboard');
+        const data = await res.json();
+
+        if (!data.success) return;
+
+        // Update KPIs
+        document.getElementById('metric-total').textContent = data.metrics.total_opportunities;
+        document.getElementById('metric-central').textContent = data.metrics.central_opportunities;
+        document.getElementById('metric-state').textContent = data.metrics.state_opportunities;
+
+        // Body Distribution Chart
+        const bodyCtx = document.getElementById('bodyChart').getContext('2d');
+        new Chart(bodyCtx, {
+            type: 'doughnut',
+            data: {
+                labels: Object.keys(data.body_distribution || {}),
+                datasets: [{
+                    data: Object.values(data.body_distribution || {}),
+                    backgroundColor: ['#e8813a', '#3a7fe8', '#3dba6f', '#e84444', '#888'],
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { position: 'bottom' } }
+            }
+        });
+
+        // State Distribution
+        const stateCtx = document.getElementById('stateChart').getContext('2d');
+        const topStates = Object.entries(data.state_distribution || {})
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 8);
+        
+        new Chart(stateCtx, {
+            type: 'bar',
+            data: {
+                labels: topStates.map(s => s[0]),
+                datasets: [{
+                    label: 'Opportunities',
+                    data: topStates.map(s => s[1]),
+                    backgroundColor: '#3a7fe8',
+                }]
+            },
+            options: {
+                responsive: true,
+                indexAxis: 'y',
+                plugins: { legend: { display: false } }
+            }
+        });
+
+        // Top Opportunities List
+        const list = document.getElementById('topOpportunitiesList');
+        data.top_opportunities.forEach(opp => {
+            const item = document.createElement('div');
+            item.style.cssText = 'display:flex; justify-content:space-between; padding:12px; border-bottom: 1px solid var(--border);';
+            item.innerHTML = `
+                <span>${opp.name}</span>
+                <span style="color: var(--accent-2); font-weight: 600;">${opp.count} exams</span>
+            `;
+            list.appendChild(item);
+        });
+
+    } catch (e) {
+        console.error('Analytics error:', e);
+    }
+}
+
+loadAnalytics();
+</script>
+
+</body>
+</html>

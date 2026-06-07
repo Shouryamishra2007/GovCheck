@@ -6,6 +6,8 @@ from flask_cors import CORS
 from app.routes.exams import exams_bp
 from app.routes.ai import ai_bp
 from app.routes.analytics import analytics_bp
+from app.routes.bookmarks import bookmarks_bp
+from app.routes.recommendations import recommendations_bp
 from app.services.exam_services import ExamService
 
 logging.basicConfig(
@@ -28,9 +30,12 @@ def create_app():
     app.config['EXAM_SERVICE'] = exam_service
     logger.info(f"GovCheck started — {exam_service.total_count} exams loaded")
 
+    # Register all blueprints
     app.register_blueprint(exams_bp)
     app.register_blueprint(ai_bp)
     app.register_blueprint(analytics_bp)
+    app.register_blueprint(bookmarks_bp)
+    app.register_blueprint(recommendations_bp)
 
     from flask import render_template, jsonify
 

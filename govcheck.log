@@ -60,3 +60,65 @@
 2026-06-07 00:07:50,510 - __main__ - INFO - GovCheck started — 215 exams loaded
 2026-06-07 00:07:50,574 - werkzeug - WARNING -  * Debugger is active!
 2026-06-07 00:07:50,580 - werkzeug - INFO -  * Debugger PIN: 140-744-901
+2026-06-07 23:45:25,184 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-07 23:45:25,185 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-07 23:45:25,493 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-07 23:45:25,493 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 23:45:25,501 - werkzeug - INFO -  * Restarting with stat
+2026-06-07 23:45:26,646 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-07 23:45:26,647 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-07 23:45:26,756 - werkzeug - WARNING -  * Debugger is active!
+2026-06-07 23:45:26,776 - werkzeug - INFO -  * Debugger PIN: 131-444-270
+2026-06-07 23:45:34,071 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:45:34] "GET / HTTP/1.1" 200 -
+2026-06-07 23:45:34,253 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:45:34] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-07 23:45:34,349 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:45:34] "GET /static/script.js HTTP/1.1" 200 -
+2026-06-07 23:45:35,375 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:45:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-07 23:45:58,844 - app.routes.exams - ERROR - Error in get_exams: 'ExamService' object has no attribute 'filter_exams'
+2026-06-07 23:45:58,846 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:45:58] "[31m[1mPOST /get-exams HTTP/1.1[0m" 400 -
+2026-06-07 23:46:02,724 - app.routes.exams - ERROR - Error in get_exams: 'ExamService' object has no attribute 'filter_exams'
+2026-06-07 23:46:02,726 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:46:02] "[31m[1mPOST /get-exams HTTP/1.1[0m" 400 -
+2026-06-07 23:46:03,646 - app.routes.exams - ERROR - Error in get_exams: 'ExamService' object has no attribute 'filter_exams'
+2026-06-07 23:46:03,648 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:46:03] "[31m[1mPOST /get-exams HTTP/1.1[0m" 400 -
+2026-06-07 23:48:39,737 - werkzeug - INFO -  * Detected change in 'c:\\Users\\HP\\Desktop\\Gov-Check\\app\\routes\\exams.py', reloading
+2026-06-07 23:48:39,895 - werkzeug - INFO -  * Restarting with stat
+2026-06-07 23:48:41,207 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-07 23:48:41,207 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-07 23:48:41,262 - werkzeug - WARNING -  * Debugger is active!
+2026-06-07 23:48:41,268 - werkzeug - INFO -  * Debugger PIN: 131-444-270
+2026-06-07 23:48:59,747 - werkzeug - INFO -  * Detected change in 'c:\\Users\\HP\\Desktop\\Gov-Check\\app\\routes\\analytics.py', reloading
+2026-06-07 23:48:59,864 - werkzeug - INFO -  * Restarting with stat
+2026-06-07 23:53:30,182 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-07 23:53:30,182 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-07 23:53:30,284 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-07 23:53:30,284 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 23:53:30,288 - werkzeug - INFO -  * Restarting with stat
+2026-06-07 23:53:31,067 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-07 23:53:31,068 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-07 23:53:31,138 - werkzeug - WARNING -  * Debugger is active!
+2026-06-07 23:53:31,146 - werkzeug - INFO -  * Debugger PIN: 131-444-270
+2026-06-07 23:53:42,111 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:53:42] "GET / HTTP/1.1" 200 -
+2026-06-07 23:53:42,290 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:53:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-07 23:53:42,307 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:53:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-07 23:53:59,968 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:53:59] "POST /get-exams HTTP/1.1" 200 -
+2026-06-07 23:55:19,606 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:55:19] "GET / HTTP/1.1" 200 -
+2026-06-07 23:55:19,642 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:55:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-07 23:55:19,646 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2026 23:55:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-08 00:04:24,950 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-08 00:04:24,951 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-08 00:04:25,091 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-08 00:04:25,091 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-06-08 00:04:25,099 - werkzeug - INFO -  * Restarting with stat
+2026-06-08 00:04:26,643 - app.services.exam_services - INFO - Loaded 215 exams
+2026-06-08 00:04:26,644 - __main__ - INFO - GovCheck started — 215 exams loaded
+2026-06-08 00:04:26,792 - werkzeug - WARNING -  * Debugger is active!
+2026-06-08 00:04:26,806 - werkzeug - INFO -  * Debugger PIN: 131-444-270
+2026-06-08 00:04:26,921 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2026 00:04:26] "GET / HTTP/1.1" 200 -
+2026-06-08 00:04:27,105 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2026 00:04:27] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-08 00:04:27,121 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2026 00:04:27] "GET /static/emotional-design.js HTTP/1.1" 200 -
+2026-06-08 00:04:27,136 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2026 00:04:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-08 00:04:48,804 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2026 00:04:48] "GET /search?q=u HTTP/1.1" 200 -
+2026-06-08 00:04:49,824 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2026 00:04:49] "GET /search?q=up HTTP/1.1" 200 -
+2026-06-08 00:04:50,504 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2026 00:04:50] "GET /search?q=u HTTP/1.1" 200 -

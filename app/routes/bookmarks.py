@@ -4,7 +4,6 @@
 
 from flask import Blueprint, request, jsonify
 import logging
-import json
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
@@ -22,7 +21,7 @@ def add_bookmark():
         if not exam_id:
             return jsonify({'success': False, 'error': 'exam_id required'}), 400
         
-        # In production: save to database
+        # In production: save to database with user_id
         # For now: return success for client-side LocalStorage handling
         
         return jsonify({
@@ -50,10 +49,12 @@ def remove_bookmark():
         return jsonify({'success': True, 'exam_id': exam_id})
 
     except Exception as e:
+        logger.error(f"Remove bookmark error: {str(e)}")
         return jsonify({'success': False, 'error': str(e)}), 400
 
 
 @bookmarks_bp.route('/api/bookmarks/list', methods=['GET'])
 def list_bookmarks():
     """Get all bookmarked exams (stub for frontend to query)."""
-    return jsonify({'bookmarks': []})
+    # In production: query database filtered by user_id
+    return jsonify({'success': True, 'bookmarks': []})

@@ -1,5 +1,3 @@
-# Enhanced exams route with smart search
-
 from flask import Blueprint, request, jsonify, current_app
 import logging
 from difflib import SequenceMatcher
@@ -18,27 +16,28 @@ def get_exams():
         state = request.form.get('state', 'delhi')
 
         exam_service = current_app.config['EXAM_SERVICE']
-        exams = exam_service.filter_exams(age, status, category, state)
+        
+        # Validate user input
+        valid, user_data, error = exam_service.validate({
+            'age': age,
+            'status': status,
+            'category': category,
+            'state': state
+        })
+        
+        if not valid:
+            return jsonify({'success': False, 'error': error}), 400
+
+        # Filter exams using existing filter method
+        exams = exam_service.filter(user_data)
 
         if not exams:
             return jsonify({'success': False, 'error': 'No matching exams found'})
 
-        # Score each exam
-        from app.services.scoring_engine import OpportunityScorer
-        scorer = OpportunityScorer()
-        user_profile = {
-            'age': age,
-            'education': status,
-            'category': category,
-            'state': state
-        }
-
-        scored_exams = scorer.rank_exams(exams, user_profile)
-        
         return jsonify({
             'success': True,
-            'results': scored_exams,
-            'count': len(scored_exams)
+            'results': exams,
+            'count': len(exams)
         })
 
     except Exception as e:
@@ -52,41 +51,14 @@ def smart_search():
     try:
         query = request.args.get('q', '').lower().strip()
         
-        if len(query) < 2:
+        if len(query) < 1:
             return jsonify({'results': []})
 
         exam_service = current_app.config['EXAM_SERVICE']
-        all_exams = exam_service.get_all_exams()
+        results = exam_service.search(query)
         
-        # Multi-field search with scoring
-        results = []
-        
-        for exam in all_exams:
-            score = 0
-            name = exam.get('name', '').lower()
-            conducting = exam.get('conducting_type', '').lower()
-            description = exam.get('description', '').lower()
-            
-            # Exact match boost
-            if query in name:
-                score += 100
-            elif query in conducting:
-                score += 80
-            elif query in description:
-                score += 50
-            
-            # Fuzzy matching for typos
-            name_ratio = SequenceMatcher(None, query, name).ratio()
-            if name_ratio > 0.7:
-                score += int(name_ratio * 100)
-            
-            if score > 0:
-                results.append((exam, score))
-        
-        # Sort by score and return top 10
-        results.sort(key=lambda x: x[1], reverse=True)
         return jsonify({
-            'results': [r[0] for r in results[:10]],
+            'results': results,
             'count': len(results)
         })
 
